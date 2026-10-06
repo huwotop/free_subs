@@ -1,0 +1,1121 @@
+proxies:
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: content.v1.Feed
+    name: 虎窝小栈🇺🇸US²_1|3.6MB/s|GPT⁺|GM⁻-DE|Succeed
+    network: grpc
+    port: 443
+    server: 163.245.43.50
+    tls: true
+    type: vless
+    udp: true
+    uuid: 203d434a-2a92-45df-8973-ca80434ecf73
+    xudp: true
+    packet-encoding: xudp
+    servername: se-twitch.global-cdn.org
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_2|7.8MB/s|GPT⁺|GM|Succeed
+    network: ws
+    port: 443
+    server: 3x-ui83253035-production.up.railway.app
+    tls: true
+    type: vless
+    udp: true
+    uuid: 36b4d476-61d4-4c73-9b0e-656d3d40d799
+    ws-opts:
+      headers:
+        Host: 3x-ui83253035-production.up.railway.app
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
+      path: /ws/7a5a21d9-60f9-4542-943e-7838b90169e1
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    packet-encoding: xudp
+    servername: 3x-ui83253035-production.up.railway.app
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇵🇱PL¹-DE⁰_1|3.8MB/s|GPT⁺|GM⁻|Succeed
+    network: ws
+    port: 443
+    server: 2.56.172.107
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /glasspanel/guest000_0_5de14443985f/
+    xudp: true
+    packet-encoding: xudp
+    servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  - alpn:
+      - ""
+    alterId: "0"
+    cipher: auto
+    name: 虎窝小栈🇺🇸US²_3|4.5MB/s|GPT⁺|GM|Succeed
+    network: ws
+    port: 28167
+    server: 142.171.48.179
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 029b530f-80a6-4ce6-9220-7ea98259bb23
+    ws-opts:
+      headers:
+        Host: gw.alicdn.com
+      path: /
+    xudp: true
+    packet-encoding: xudp
+  - name: 虎窝小栈🇺🇸US¹-US⁰_1|4.6MB/s|GPT⁺|GM|History
+    network: ws
+    port: 2052
+    server: 172.64.229.170
+    skip-cert-verify: false
+    tfo: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    ws-opts:
+      headers:
+        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      path: /?ed=2560security=tls
+  - client-fingerprint: firefox
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: astracat
+    name: 虎窝小栈🇸🇬SG²_1|5.8MB/s|GPT⁺|Succeed
+    network: grpc
+    port: 2088
+    reality-opts:
+      public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+      short-id: "b1ad165f903c62fe"
+    server: 31.59.210.26
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+    servername: www.yandex.ru
+  - name: 虎窝小栈🇸🇬SG²_2|3.7MB/s|GPT⁺|History
+    network: ws
+    password: mitivpn
+    port: 443
+    server: 199.232.78.160
+    skip-cert-verify: true
+    sni: ssl.fastly.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
+      path: /
+  - name: 虎窝小栈🇸🇬SG²_3|8.2MB/s|GPT⁺|Succeed
+    network: ws
+    password: mitivpn
+    port: 443
+    server: 167.82.76.27
+    skip-cert-verify: true
+    sni: ssl.fastly.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_4|2.6MB/s|GPT⁺|Succeed
+    network: ws
+    port: 443
+    server: 80.96.113.48
+    tls: true
+    type: vless
+    udp: true
+    uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+    ws-opts:
+      headers:
+        Host: x.m-90.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /t.me/TEAMNETGRATISCOL
+    xudp: true
+    packet-encoding: xudp
+    servername: x.m-90.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇬🇧GB²_1|2.7MB/s|GPT⁺|History
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws
+      short-id: "06e00e7c"
+    server: 157.228.128.59
+    tls: true
+    type: vless
+    udp: true
+    uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+    xudp: true
+    packet-encoding: xudp
+    servername: addons.mozilla.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇫🇷FR²_1|1.2MB/s|GPT⁺|Succeed
+    network: ws
+    port: 443
+    server: 193.37.215.75
+    tls: true
+    type: vless
+    udp: true
+    uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+    ws-opts:
+      headers:
+        Host: bab-6.site
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/60.0.3112.116 Mobile Safari/537.36
+      path: /vws/
+    xudp: true
+    packet-encoding: xudp
+    servername: bab-6.site
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇱🇻LV¹-DE⁰_1|3.1MB/s|GPT⁺|Succeed
+    network: ws
+    port: 443
+    server: 217.60.6.103
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /glasspanel/guest000_0_5de14443985f/
+    xudp: true
+    packet-encoding: xudp
+    servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  - name: 虎窝小栈🇭🇰HK¹-SG⁰_1|1.6MB/s|GM|History
+    network: ws
+    port: 443
+    server: 175.29.23.179
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+      path: /glasspanel/guest000_0_5de14443985f/
+    servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_5|4.5MB/s|GPT⁺|GM-AR|Succeed
+    network: ws
+    port: 443
+    server: 138.124.58.39
+    tls: true
+    type: vless
+    udp: true
+    uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+    ws-opts:
+      headers:
+        Host: x.m-90.xyz
+        User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+          Chrome/v1.0.0 Safari/538.1
+      path: /t.me/TEAMNETGRATISCOL
+    xudp: true
+    packet-encoding: xudp
+    servername: x.m-90.xyz
+  - name: 虎窝小栈🇺🇸US¹-US⁰_2|2.7MB/s|GPT⁺|GM|Succeed
+    network: ws
+    port: 8880
+    server: 104.18.47.113
+    skip-cert-verify: false
+    tfo: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    ws-opts:
+      headers:
+        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      path: /?ed=2560security=tls
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇱🇻LV²_1|3.9MB/s|GPT⁺|GM-SG|Succeed
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: miDhSALrcCvSfc38VjCDYlzNh5M61NMR5IkUli7IN08
+      short-id: "0da7e14db353e7d0"
+    server: 216.173.71.43
+    tls: true
+    type: vless
+    udp: true
+    uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+    xudp: true
+    packet-encoding: xudp
+    servername: lv.nztvpn.com
+  - client-fingerprint: chrome
+    encryption: mlkem768x25519plus.native.0rtt.Y0-j5e-CpehUKzhEeat1dTYevroKyHV4g9HML3ujmlQ
+    name: 虎窝小栈🇩🇪DE²_1|7.4MB/s|GPT⁺|GM⁻|Succeed
+    network: xhttp
+    port: 443
+    reality-opts:
+      public-key: IqFTx4k5VQydmffvavaOHDXBtdgDxX26A6NtsVvDfhw
+      short-id: "d485c3d5248d6b51"
+    server: 2.28.142.170
+    tls: true
+    type: vless
+    udp: true
+    uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5
+    xhttp-opts:
+      host: germanytest.tulnaro.ir
+      mode: auto
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: germanytest.tulnaro.ir
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_6|4.6MB/s|GPT⁺|GM-AR|Succeed
+    network: ws
+    port: 443
+    server: 104.168.202.51
+    tls: true
+    type: vless
+    udp: true
+    uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+    ws-opts:
+      headers:
+        Host: x.m-90.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /t.me/TEAMNETGRATISCOL
+    xudp: true
+    packet-encoding: xudp
+    servername: x.m-90.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US¹-JP⁰_1|2.6MB/s|GPT⁺|GM|Succeed
+    network: ws
+    port: 443
+    server: saas.sin.fan
+    tls: true
+    type: vless
+    udp: true
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    ws-opts:
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.116 Safari/537.36
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    packet-encoding: xudp
+    servername: snip.edgeoneai.cc.cd
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇩🇪DE²_2|3.3MB/s|GPT⁺|Succeed
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+      short-id: "4be4110078ebed4a"
+    server: de2.srv.vbuste.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+    xudp: true
+    packet-encoding: xudp
+    servername: de2.srv.vbuste.ru
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇸🇪SE¹-DE⁰_1|2.9MB/s|GPT⁺|Succeed
+    network: ws
+    port: 443
+    server: 94.183.189.154
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /glasspanel/guest000_0_5de14443985f/
+    xudp: true
+    packet-encoding: xudp
+    servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  - client-fingerprint: firefox
+    encryption: none
+    name: 虎窝小栈🇱🇻LV¹-DE⁰_2|4.5MB/s|GPT⁺|GM⁻|Succeed
+    network: ws
+    port: 443
+    server: 31.56.113.202
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
+      path: /glasspanel/guest000_0_5de14443985f/
+    xudp: true
+    packet-encoding: xudp
+    servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  - alpn:
+      - h3
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: mlkem768x25519plus.native.0rtt.KmObJcXK-X9Zx5HMeSkn-zchyyWJR3U2XMJDtWK2QEw
+    name: 虎窝小栈🇩🇪DE²_3|4.3MB/s|GPT⁺|GM⁻|Succeed
+    network: xhttp
+    port: 8443
+    reality-opts:
+      public-key: GB3bGUtRma7-14YH-WK--1CR9GXXPHNqFUQz8v0YLBk
+      short-id: "1a4e3e64b9a568c5"
+    server: 2.28.142.170
+    tls: true
+    type: vless
+    udp: true
+    uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5
+    xhttp-opts:
+      host: germanytest.tulnaro.ir
+      mode: auto
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: germanytest.tulnaro.ir
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_7|3.7MB/s|GPT⁺|Succeed
+    network: ws
+    port: 443
+    server: 2.56.172.107
+    tls: true
+    type: vless
+    udp: true
+    uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+    ws-opts:
+      headers:
+        Host: x.m-90.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: /t.me/TEAMNETGRATISCOL
+    xudp: true
+    packet-encoding: xudp
+    servername: x.m-90.xyz
+  - client-fingerprint: firefox
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: astracat
+    name: 虎窝小栈🇸🇬SG²_4|4.8MB/s|GPT⁺|Succeed
+    network: grpc
+    port: 2087
+    reality-opts:
+      public-key: KDBhxT2YMtMjDEC9VdoDEISdCwxd6KFrSE8uyUaHcTY
+      short-id: "ed435c242097fd05"
+    server: 31.59.210.25
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+    servername: www.yandex.ru
+  - client-fingerprint: firefox
+    encryption: none
+    name: 虎窝小栈🇨🇭CH¹-DE⁰_1|3.0MB/s|GPT⁺|GM|Succeed
+    network: ws
+    port: 443
+    server: 199.68.196.67
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+        User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
+      path: /glasspanel/guest000_0_5de14443985f/
+    xudp: true
+    packet-encoding: xudp
+    servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇳🇱NL¹-DE⁰_1|4.3MB/s|GPT⁺|GM⁻|History
+    network: ws
+    port: 443
+    server: 5.35.46.168
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /glasspanel/guest000_0_5de14443985f/
+    xudp: true
+    packet-encoding: xudp
+    servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇺🇸US²_8|3.7MB/s|GPT⁺|GM⁻-NL|Succeed
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 5tMM2VdgddmxOKhdNa3b7i_aXno1g-_61SzkppS2UXQ
+      short-id: "f3c023cc"
+    server: 2.27.39.233
+    tls: true
+    type: vless
+    udp: true
+    uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+    xudp: true
+    packet-encoding: xudp
+    servername: addons.mozilla.org
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇫🇷FR²_2|2.8MB/s|GPT⁺|GM-SG|Succeed
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 8EU4QO_Md_9ohyl1TfE5gtgPyxQ0QNTrXggljxOOvz0
+      short-id: "0da7e14db353e7d0"
+    server: 45.140.165.192
+    tls: true
+    type: vless
+    udp: true
+    uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+    xudp: true
+    packet-encoding: xudp
+    servername: france.nztvpn.com
+  - client-fingerprint: firefox
+    encryption: none
+    name: 虎窝小栈🇸🇬SG²_5|2.6MB/s|GPT⁺|GM⁻-RO|Succeed
+    network: ws
+    port: 443
+    server: 85.90.196.11
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /glasspanel/guest000_0_5de14443985f/
+    xudp: true
+    packet-encoding: xudp
+    servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇭🇰HK²_1|0.6MB/s|GPT⁺|Succeed
+    network: tcp
+    port: 14343
+    server: 36.248.14.90
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+    xudp: true
+    packet-encoding: xudp
+    servername: thuk.huaweiyouxuan.com
+  - client-fingerprint: firefox
+    encryption: none
+    name: 虎窝小栈🇲🇩MD¹-US⁰_1|3.1MB/s|GPT⁺|GM|Succeed
+    network: ws
+    port: 443
+    server: 80.96.113.48
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.167 Safari/537.36
+      path: /glasspanel/guest000_0_5de14443985f/
+    xudp: true
+    packet-encoding: xudp
+    servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  - client-fingerprint: safari
+    encryption: none
+    name: 虎窝小栈🏴‍☠_1虎窝小栈🏴‍☠_1虎窝小栈🇳🇱NL²_1⁻⁻-NL|History|1.8MB/s|GPT⁺|GM⁻-NL|Succeed
+    network: ws
+    port: 443
+    server: no.gokonstantin.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 053682f4-c584-46df-ad81-069dec5f64f0
+    ws-opts:
+      headers:
+        Host: no.gokonstantin.com
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /cdnws
+    xudp: true
+    packet-encoding: xudp
+    servername: no.gokonstantin.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇫🇷FR¹-DE⁰_1|3.0MB/s|GPT⁺|GM⁻|Succeed
+    network: ws
+    port: 443
+    server: 31.56.146.139
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.85 Safari/537.36
+      path: /glasspanel/guest000_0_5de14443985f/
+    xudp: true
+    packet-encoding: xudp
+    servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🚀 手动切换
+    include-all: true
+    type: select
+  - name: ♻️ 自动选择
+    type: url-test
+    include-all: true
+    interval: 300
+    tolerance: 50
+  - name: 📲 电报消息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 💬 Ai平台
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎥 奈飞节点
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇨🇳 台湾节点
+      - 🇭🇰 香港节点
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🚀 手动切换
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软Bing
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🎶 网易音乐
+    type: select
+    include-all: true
+    filter: (?i)网易|音乐|NetEase|Music
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🇭🇰 香港节点
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇯🇵 日本节点
+    include-all: true
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇺🇲 美国节点
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇨🇳 台湾节点
+    include-all: true
+    filter: (?i)台|新北|彰化|TW|Taiwan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇸🇬 狮城节点
+    include-all: true
+    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇰🇷 韩国节点
+    include-all: true
+    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🎥 奈飞节点
+    include-all: true
+    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
+    type: select
+rule-providers:
+  LocalAreaNetwork:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
+    path: ./ruleset/LocalAreaNetwork.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  UnBan:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list
+    path: ./ruleset/UnBan.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanAD:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list
+    path: ./ruleset/BanAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanProgramAD:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
+    path: ./ruleset/BanProgramAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleFCM:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/GoogleFCM.list
+    path: ./ruleset/GoogleFCM.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleCN:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
+    path: ./ruleset/GoogleCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  SteamCN:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/SteamCN.list
+    path: ./ruleset/SteamCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bing:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Bing.list
+    path: ./ruleset/Bing.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OneDrive:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/OneDrive.list
+    path: ./ruleset/OneDrive.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Microsoft:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
+    path: ./ruleset/Microsoft.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Apple:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Apple.list
+    path: ./ruleset/Apple.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Telegram:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Telegram.list
+    path: ./ruleset/Telegram.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  AI:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/AI.list
+    path: ./ruleset/AI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OpenAi:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OpenAi.list
+    path: ./ruleset/OpenAi.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  NetEaseMusic:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/NetEaseMusic.list
+    path: ./ruleset/NetEaseMusic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Epic:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Epic.list
+    path: ./ruleset/Epic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Origin:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Origin.list
+    path: ./ruleset/Origin.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Sony:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Sony.list
+    path: ./ruleset/Sony.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Steam:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Steam.list
+    path: ./ruleset/Steam.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Nintendo:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Nintendo.list
+    path: ./ruleset/Nintendo.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  YouTube:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/YouTube.list
+    path: ./ruleset/YouTube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Netflix:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Netflix.list
+    path: ./ruleset/Netflix.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bahamut:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bahamut.list
+    path: ./ruleset/Bahamut.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BilibiliHMT:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/BilibiliHMT.list
+    path: ./ruleset/BilibiliHMT.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bilibili:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bilibili.list
+    path: ./ruleset/Bilibili.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaMedia.list
+    path: ./ruleset/ChinaMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyMedia.list
+    path: ./ruleset/ProxyMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyGFWlist:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaDomain:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaCompanyIp:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Download:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
+    path: ./ruleset/Download.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+rules:
+  - PROCESS-NAME,subs-check.exe,🎯 全球直连
+  - PROCESS-NAME,subs-check,🎯 全球直连
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 广告拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Bing,Ⓜ️ 微软Bing
+  - RULE-SET,OneDrive,Ⓜ️ 微软云盘
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报消息
+  - RULE-SET,AI,💬 Ai平台
+  - RULE-SET,NetEaseMusic,🎶 网易音乐
+  - RULE-SET,Epic,🎮 游戏平台
+  - RULE-SET,Origin,🎮 游戏平台
+  - RULE-SET,Sony,🎮 游戏平台
+  - RULE-SET,Steam,🎮 游戏平台
+  - RULE-SET,Nintendo,🎮 游戏平台
+  - RULE-SET,YouTube,📹 油管视频
+  - RULE-SET,Netflix,🎥 奈飞视频
+  - RULE-SET,Bahamut,📺 巴哈姆特
+  - RULE-SET,BilibiliHMT,📺 哔哩哔哩
+  - RULE-SET,Bilibili,📺 哔哩哔哩
+  - RULE-SET,ChinaMedia,🌏 国内媒体
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
