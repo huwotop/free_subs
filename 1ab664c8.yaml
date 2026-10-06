@@ -1,0 +1,561 @@
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: content.v1.Feed
+  name: 虎窝小栈🇺🇸US²_1|3.6MB/s|GPT⁺|GM⁻-DE|Succeed
+  network: grpc
+  port: 443
+  server: 163.245.43.50
+  servername: se-twitch.global-cdn.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 203d434a-2a92-45df-8973-ca80434ecf73
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 虎窝小栈🇺🇸US²_2|7.8MB/s|GPT⁺|GM|Succeed
+  network: ws
+  port: 443
+  server: 3x-ui83253035-production.up.railway.app
+  servername: 3x-ui83253035-production.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36b4d476-61d4-4c73-9b0e-656d3d40d799
+  ws-opts:
+    headers:
+      Host: 3x-ui83253035-production.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /ws/7a5a21d9-60f9-4542-943e-7838b90169e1?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 虎窝小栈🇵🇱PL¹-DE⁰_1|3.8MB/s|GPT⁺|GM⁻|Succeed
+  network: ws
+  port: 443
+  server: 2.56.172.107
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+  xudp: true
+- alpn:
+  - ""
+  alterId: "0"
+  cipher: auto
+  name: 虎窝小栈🇺🇸US²_3|4.5MB/s|GPT⁺|GM|Succeed
+  network: ws
+  port: 28167
+  server: 142.171.48.179
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 029b530f-80a6-4ce6-9220-7ea98259bb23
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+  xudp: true
+- name: 虎窝小栈🇺🇸US¹-US⁰_1|4.6MB/s|GPT⁺|GM|History
+  network: ws
+  port: 2052
+  server: 172.64.229.170
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: astracat
+  name: 虎窝小栈🇸🇬SG²_1|5.8MB/s|GPT⁺|Succeed
+  network: grpc
+  port: 2088
+  reality-opts:
+    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+    short-id: b1ad165f903c62fe
+  server: 31.59.210.26
+  servername: www.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+- name: 虎窝小栈🇸🇬SG²_2|3.7MB/s|GPT⁺|History
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 199.232.78.160
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
+    path: /
+- name: 虎窝小栈🇸🇬SG²_3|8.2MB/s|GPT⁺|Succeed
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 167.82.76.27
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: chrome
+  encryption: none
+  name: 虎窝小栈🇺🇸US²_4|2.6MB/s|GPT⁺|Succeed
+  network: ws
+  port: 443
+  server: 80.96.113.48
+  servername: x.m-90.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  ws-opts:
+    headers:
+      Host: x.m-90.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: t.me/TEAMNETGRATISCOL
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 虎窝小栈🇬🇧GB²_1|2.7MB/s|GPT⁺|History
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws
+    short-id: 06e00e7c
+  server: 157.228.128.59
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 虎窝小栈🇫🇷FR²_1|1.2MB/s|GPT⁺|Succeed
+  network: ws
+  port: 443
+  server: 193.37.215.75
+  servername: bab-6.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  ws-opts:
+    headers:
+      Host: bab-6.site
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    path: /vws/
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 虎窝小栈🇱🇻LV¹-DE⁰_1|3.1MB/s|GPT⁺|Succeed
+  network: ws
+  port: 443
+  server: 217.60.6.103
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+  xudp: true
+- name: 虎窝小栈🇭🇰HK¹-SG⁰_1|1.6MB/s|GM|History
+  network: ws
+  port: 443
+  server: 175.29.23.179
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- client-fingerprint: chrome
+  encryption: none
+  name: 虎窝小栈🇺🇸US²_5|4.5MB/s|GPT⁺|GM-AR|Succeed
+  network: ws
+  port: 443
+  server: 138.124.58.39
+  servername: x.m-90.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  ws-opts:
+    headers:
+      Host: x.m-90.xyz
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/v1.0.0 Safari/538.1
+    path: t.me/TEAMNETGRATISCOL
+  xudp: true
+- name: 虎窝小栈🇺🇸US¹-US⁰_2|2.7MB/s|GPT⁺|GM|Succeed
+  network: ws
+  port: 8880
+  server: 104.18.47.113
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 虎窝小栈🇱🇻LV²_1|3.9MB/s|GPT⁺|GM-SG|Succeed
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: miDhSALrcCvSfc38VjCDYlzNh5M61NMR5IkUli7IN08
+    short-id: 0da7e14db353e7d0
+  server: 216.173.71.43
+  servername: lv.nztvpn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  xudp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.Y0-j5e-CpehUKzhEeat1dTYevroKyHV4g9HML3ujmlQ
+  name: 虎窝小栈🇩🇪DE²_1|7.4MB/s|GPT⁺|GM⁻|Succeed
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: IqFTx4k5VQydmffvavaOHDXBtdgDxX26A6NtsVvDfhw
+    short-id: d485c3d5248d6b51
+  server: 2.28.142.170
+  servername: germanytest.tulnaro.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5
+  xhttp-opts:
+    host: germanytest.tulnaro.ir
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 虎窝小栈🇺🇸US²_6|4.6MB/s|GPT⁺|GM-AR|Succeed
+  network: ws
+  port: 443
+  server: 104.168.202.51
+  servername: x.m-90.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  ws-opts:
+    headers:
+      Host: x.m-90.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: t.me/TEAMNETGRATISCOL
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 虎窝小栈🇺🇸US¹-JP⁰_1|2.6MB/s|GPT⁺|GM|Succeed
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 虎窝小栈🇩🇪DE²_2|3.3MB/s|GPT⁺|Succeed
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: 4be4110078ebed4a
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 虎窝小栈🇸🇪SE¹-DE⁰_1|2.9MB/s|GPT⁺|Succeed
+  network: ws
+  port: 443
+  server: 94.183.189.154
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 虎窝小栈🇱🇻LV¹-DE⁰_2|4.5MB/s|GPT⁺|GM⁻|Succeed
+  network: ws
+  port: 443
+  server: 31.56.113.202
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.KmObJcXK-X9Zx5HMeSkn-zchyyWJR3U2XMJDtWK2QEw
+  name: 虎窝小栈🇩🇪DE²_3|4.3MB/s|GPT⁺|GM⁻|Succeed
+  network: xhttp
+  port: 8443
+  reality-opts:
+    public-key: GB3bGUtRma7-14YH-WK--1CR9GXXPHNqFUQz8v0YLBk
+    short-id: 1a4e3e64b9a568c5
+  server: 2.28.142.170
+  servername: germanytest.tulnaro.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5
+  xhttp-opts:
+    host: germanytest.tulnaro.ir
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 虎窝小栈🇺🇸US²_7|3.7MB/s|GPT⁺|Succeed
+  network: ws
+  port: 443
+  server: 2.56.172.107
+  servername: x.m-90.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  ws-opts:
+    headers:
+      Host: x.m-90.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: t.me/TEAMNETGRATISCOL
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: astracat
+  name: 虎窝小栈🇸🇬SG²_4|4.8MB/s|GPT⁺|Succeed
+  network: grpc
+  port: 2087
+  reality-opts:
+    public-key: KDBhxT2YMtMjDEC9VdoDEISdCwxd6KFrSE8uyUaHcTY
+    short-id: ed435c242097fd05
+  server: 31.59.210.25
+  servername: www.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+- client-fingerprint: firefox
+  encryption: none
+  name: 虎窝小栈🇨🇭CH¹-DE⁰_1|3.0MB/s|GPT⁺|GM|Succeed
+  network: ws
+  port: 443
+  server: 199.68.196.67
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 虎窝小栈🇳🇱NL¹-DE⁰_1|4.3MB/s|GPT⁺|GM⁻|History
+  network: ws
+  port: 443
+  server: 5.35.46.168
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 虎窝小栈🇺🇸US²_8|3.7MB/s|GPT⁺|GM⁻-NL|Succeed
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 5tMM2VdgddmxOKhdNa3b7i_aXno1g-_61SzkppS2UXQ
+    short-id: f3c023cc
+  server: 2.27.39.233
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 虎窝小栈🇫🇷FR²_2|2.8MB/s|GPT⁺|GM-SG|Succeed
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8EU4QO_Md_9ohyl1TfE5gtgPyxQ0QNTrXggljxOOvz0
+    short-id: 0da7e14db353e7d0
+  server: 45.140.165.192
+  servername: france.nztvpn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 虎窝小栈🇸🇬SG²_5|2.6MB/s|GPT⁺|GM⁻-RO|Succeed
+  network: ws
+  port: 443
+  server: 85.90.196.11
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 虎窝小栈🇭🇰HK²_1|0.6MB/s|GPT⁺|Succeed
+  network: tcp
+  port: 14343
+  server: 36.248.14.90
+  servername: thuk.huaweiyouxuan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 虎窝小栈🇲🇩MD¹-US⁰_1|3.1MB/s|GPT⁺|GM|Succeed
+  network: ws
+  port: 443
+  server: 80.96.113.48
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+  xudp: true
+- client-fingerprint: safari
+  encryption: none
+  name: 虎窝小栈🏴‍☠_1虎窝小栈🏴‍☠_1虎窝小栈🇳🇱NL²_1⁻⁻-NL|History|1.8MB/s|GPT⁺|GM⁻-NL|Succeed
+  network: ws
+  port: 443
+  server: no.gokonstantin.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 053682f4-c584-46df-ad81-069dec5f64f0
+  ws-opts:
+    headers:
+      Host: no.gokonstantin.com
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /cdnws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 虎窝小栈🇫🇷FR¹-DE⁰_1|3.0MB/s|GPT⁺|GM⁻|Succeed
+  network: ws
+  port: 443
+  server: 31.56.146.139
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+  xudp: true
