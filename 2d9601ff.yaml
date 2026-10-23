@@ -1,41 +1,81 @@
 proxies:
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇺🇸US²_1|3.1MB/s|GPT⁺|GM
-    network: tcp
-    port: 9443
-    reality-opts:
-      public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-      short-id: "b390142456517acc"
-    server: 156.229.164.149
-    tls: true
-    type: vless
-    udp: true
-    uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-    servername: www.amazon.com
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇳🇱NL²_1|4.3MB/s|GPT⁺|GM⁻
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
-      short-id: "fc70174007a393b4"
-    server: 77.239.110.89
-    tls: true
-    type: vless
-    udp: true
-    uuid: a500be68-4ff6-433b-9968-472be69fab14
-    xudp: true
-    packet-encoding: xudp
-    servername: netherlands02.azotvpn.xyz
-  - client-fingerprint: chrome
-    encryption: none
-    name: 虎窝小栈🇧🇬BG¹-BG⁰_1|3.8MB/s|GPT⁺
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US¹-US⁰_1|6.4MB/s|GPT⁺|GM
     network: ws
     port: 443
-    server: 13.140.29.45
+    server: 104.17.148.22
+    tls: true
+    type: vless
+    udp: true
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    ws-opts:
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: snip.edgeoneai.cc.cd
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_1|5.0MB/s|GPT⁺|GM-US|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.45
+    type: ss
+    udp: true
+  - client-fingerprint: firefox
+    encryption: none
+    grpc-opts:
+      grpc-service-name: GunService
+    name: 虎窝小栈🇳🇱NL²_1|1.7MB/s|GPT⁺|GM⁻
+    network: grpc
+    port: 8451
+    reality-opts:
+      public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+      short-id: ""
+    server: 94.103.2.109
+    tls: true
+    type: vless
+    udp: true
+    uuid: a346c521-7a7f-452b-9356-a4893feb5982
+    xudp: true
+    packet-encoding: xudp
+    servername: github.com
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇩🇪DE⁻¹_1|4.2MB/s|Succeed
+    network: ws
+    port: 443
+    server: 103.160.59.198
+    tls: true
+    type: vless
+    udp: true
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    ws-opts:
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.77 Safari/537.36
+      path: /fp=chrome
+    xudp: true
+    packet-encoding: xudp
+    servername: snip.edgeoneai.cc.cd
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_2|3.5MB/s|GPT⁺|GM-US
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.81
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US⁻¹_1|5.8MB/s|GM
+    network: ws
+    port: 443
+    server: 104.17.162.3
     tls: true
     type: vless
     udp: true
@@ -44,25 +84,15 @@ proxies:
       headers:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/31.0.1650.57 Safari/537.36
-      path: /
+          Gecko) Chrome/36.0.1985.143 Safari/537.36
+      path: /fp=chrome
     xudp: true
     packet-encoding: xudp
     servername: snip.edgeoneai.cc.cd
-  - name: 虎窝小栈🇮🇳IN²_1|6.3MB/s|GPT⁺|GM|History
-    password: Trojan@82164024
-    port: 443
-    server: in.tronsg.com
-    skip-cert-verify: true
-    sni: 127.0.0.1
-    type: trojan
-    udp: true
-    network: tcp
-    disable-sni: true
   - client-fingerprint: safari
     encryption: none
     flow: xtls-rprx-vision
-    name: 虎窝小栈🇳🇱NL²_2|3.5MB/s|GPT⁺|GM⁻
+    name: 虎窝小栈🇳🇱NL²_2|2.0MB/s|GPT⁺|GM⁻|Succeed
     network: tcp
     port: 443
     reality-opts:
@@ -76,210 +106,12 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: netherlands02.azotvpn.xyz
-  - client-fingerprint: chrome
-    name: 虎窝小栈🇺🇸US⁻¹_1|8.3MB/s|GM
-    network: ws
-    port: 443
-    server: 104.19.53.46
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /fp=chrome
-    xudp: true
-    packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇸🇬SG²_1|1.9MB/s|GPT⁺|GM⁻-DE
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
-      short-id: "7271129440ade8fa"
-    server: 194.87.29.96
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
-    xudp: true
-    packet-encoding: xudp
-    servername: login.moscowvibe.fyi
-  - name: 虎窝小栈🇸🇬SG²_2|3.9MB/s|GPT⁺|GM-JP|Succeed
-    password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-    port: 8886
-    server: 45.32.52.173
-    skip-cert-verify: true
-    sni: 45.32.52.173
-    type: trojan
-    udp: true
-    network: tcp
-  - client-fingerprint: chrome
-    encryption: none
-    name: 虎窝小栈🇩🇪DE⁻¹_1|4.6MB/s|Succeed
-    network: ws
-    port: 8443
-    server: 2.28.42.209
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    xudp: true
-    packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇸🇬SG²_3|1.1MB/s|GPT⁺|Succeed
-    network: tcp
-    port: 9443
-    reality-opts:
-      public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-      short-id: "b390142456517acc"
-    server: 176.97.64.118
-    tls: true
-    type: vless
-    udp: true
-    uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-    servername: www.amazon.com
   - alpn:
       - h3
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 虎窝小栈🇺🇸US¹-US⁰_1|2.7MB/s|GPT⁺|GM
-    network: ws
-    port: 443
-    server: 172.64.154.211
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - client-fingerprint: chrome
-    encryption: none
-    name: 虎窝小栈🇭🇰HK⁻¹_1|9.0MB/s|GM|Succeed
-    network: ws
-    port: 8443
-    server: 103.39.78.118
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile
-          Safari/537.36
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    xudp: true
-    packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇸🇬SG²_4|0.7MB/s|GPT⁺|GM-US|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.72
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇸🇬SG²_5|3.8MB/s|GPT⁺|GM-US
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.54
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇷🇺RU²_1|4.6MB/s
-    password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
-    port: 18443
-    server: 195.58.49.34
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_1|3.8MB/s|GPT⁺|GM-US
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.90
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: 虎窝小栈🇳🇱NL¹-GB⁰_1|3.5MB/s|GPT⁺|GM⁻|Succeed
-    network: ws
-    port: 443
-    server: 72.56.106.210
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_2|2.3MB/s|GPT⁺|GM-US
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.45
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: 虎窝小栈🇺🇸US⁻¹_2|4.7MB/s|GM|Succeed
-    network: ws
-    port: 443
-    server: 117.55.232.3
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
-      path: /fp=chrome
-    xudp: true
-    packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_3|0.8MB/s|GPT⁺|GM-US|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.99
-    type: ss
-    udp: true
-  - alpn:
-      - h3
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: 虎窝小栈🇳🇿NZ¹-NZ⁰_1|1.0MB/s|GPT⁺|GM
+    name: 虎窝小栈🇳🇿NZ¹-NZ⁰_1|1.0MB/s|GPT⁺|GM|Succeed
     network: ws
     port: 443
     server: 185.71.230.237
@@ -298,38 +130,73 @@ proxies:
     servername: snip.edgeoneai.cc.cd
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: 虎窝小栈🇭🇰HK²_1|2.6MB/s|GM|Succeed
+    name: 虎窝小栈🇭🇰HK²_1|2.5MB/s|GM-US
     network: tcp
-    port: 9443
+    port: 2091
     reality-opts:
-      public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-      short-id: "b390142456517acc"
-    server: 154.83.86.85
+      public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+      short-id: "08a4b1f473932632"
+    server: 213.152.165.203
     tls: true
     type: vless
     udp: true
-    uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-    servername: www.amazon.com
+    uuid: 76b6a658-ce80-4500-b24d-404c94639ac6
+    xudp: true
+    packet-encoding: xudp
+    servername: www.apple.com
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇯🇵JP²_1|3.7MB/s|GPT⁺|GM|Succeed
-    network: tcp
-    port: 9443
-    reality-opts:
-      public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-      short-id: "b390142456517acc"
-    server: 45.202.254.20
-    tls: true
-    type: vless
+    name: 虎窝小栈🇫🇷FR²_1|2.1MB/s
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.19.64.105
+    skip-cert-verify: false
+    sni: www.calmlunch.com
+    type: trojan
     udp: true
-    uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-    servername: www.amazon.com
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /assignment
   - client-fingerprint: chrome
-    encryption: none
-    name: 虎窝小栈🇸🇬SG¹-SG⁰_1|4.6MB/s|GPT⁺|GM
+    name: 虎窝小栈🇸🇬SG²_1|2.1MB/s
     network: ws
     port: 443
-    server: 178.93.160.236
+    server: 157.22.128.7
+    tls: true
+    type: vless
+    udp: true
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    ws-opts:
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/63.0.3239.111 Mobile Safari/537.36
+      path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
+    xudp: true
+    packet-encoding: xudp
+    servername: snip.edgeoneai.cc.cd
+  - down: ""
+    fingerprint: ""
+    name: 虎窝小栈🇸🇬SG²_2|3.9MB/s|GPT⁺|GM⁻-ES|History
+    obfs: ""
+    obfs-password: ""
+    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+    port: 2060
+    server: xby.mangshe.xyz
+    skip-cert-verify: true
+    sni: 127.0.0.1
+    type: hysteria2
+    up: ""
+    udp: true
+    disable-sni: true
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US¹-US⁰_2|4.5MB/s|GPT⁺|GM
+    network: ws
+    port: 443
+    server: 104.18.255.167
     tls: true
     type: vless
     udp: true
@@ -338,92 +205,42 @@ proxies:
       headers:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.94 Safari/537.36
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: snip.edgeoneai.cc.cd
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇺🇸US¹-US⁰_2|5.4MB/s|GPT⁺|GM
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: ST900c3lnBenLZfgTP95GPCXNm2dOpwQ7R5WShAKjSs
-      short-id: "7271129440ade8fa"
-    server: 69.42.222.165
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
-    xudp: true
-    packet-encoding: xudp
-    servername: api.moscowvibe.fyi
   - cipher: aes-256-gcm
-    name: 虎窝小栈🇸🇬SG²_6|3.4MB/s|GPT⁺|GM-US|Succeed
+    name: 虎窝小栈🇮🇹IT²_3|2.5MB/s|GPT⁺|GM-US|History
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.63
+    server: 202.50.253.18
     type: ss
     udp: true
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇭🇰HK²_2|4.2MB/s|GM|Succeed
-    network: tcp
-    port: 9443
-    reality-opts:
-      public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-      short-id: "b390142456517acc"
-    server: 141.11.149.174
-    tls: true
-    type: vless
-    udp: true
-    uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-    servername: www.amazon.com
-  - client-fingerprint: chrome
     encryption: none
-    name: 虎窝小栈🇰🇷KR⁻¹_1|3.3MB/s|GM
+    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+    name: 虎窝小栈🇺🇸US²_1|0.6MB/s|GPT⁺
     network: ws
     port: 443
-    server: 123.111.169.70
+    server: 146.75.59.186
     tls: true
     type: vless
     udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    uuid: 7dee06cc-4bc8-43ca-a6c2-59f81107f2e3
     ws-opts:
       headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
-      path: /fp=chrome
+        Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195
+          Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5
+          Chrome/28.0.1500.94 Mobile Safari/537.36
+      path: /
     xudp: true
     packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇭🇰HK²_3|3.8MB/s|GM-US
-    network: tcp
-    port: 2091
-    reality-opts:
-      public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-      short-id: "08a4b1f473932632"
-    server: 50.7.44.28
-    tls: true
-    type: vless
-    udp: true
-    uuid: 76b6a658-ce80-4500-b24d-404c94639ac6
-    servername: www.apple.com
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_4|2.3MB/s|GPT⁺|GM-US
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.36
-    type: ss
-    udp: true
+    servername: firefox.com
   - client-fingerprint: chrome
     encryption: none
-    name: 虎窝小栈🇫🇮FI⁻¹_1|1.2MB/s|GM⁻|Succeed
+    name: 虎窝小栈🇫🇮FI⁻¹_1|6.6MB/s|GM⁻|Succeed
     network: ws
     port: 8443
     server: 139.100.226.187
@@ -441,10 +258,11 @@ proxies:
     packet-encoding: xudp
     servername: snip.edgeoneai.cc.cd
   - client-fingerprint: chrome
-    name: 虎窝小栈🇨🇾CY⁻¹_1|3.3MB/s|GM⁻
+    encryption: none
+    name: 虎窝小栈🇭🇰HK¹-HK⁰_1|8.3MB/s
     network: ws
     port: 443
-    server: 213.111.177.107
+    server: 162.159.128.253
     tls: true
     type: vless
     udp: true
@@ -452,153 +270,55 @@ proxies:
     ws-opts:
       headers:
         Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: /fp=chrome
-    xudp: true
-    packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - client-fingerprint: chrome
-    encryption: none
-    name: 虎窝小栈🇸🇬SG²_7|3.0MB/s|GPT⁺
-    network: ws
-    port: 8443
-    server: 144.31.181.177
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/60.0.3112.116 Mobile Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: snip.edgeoneai.cc.cd
   - client-fingerprint: chrome
     encryption: none
-    name: 虎窝小栈🇭🇰HK⁻¹_2|3.9MB/s|Succeed
+    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+    name: 虎窝小栈🇸🇬SG²_3|0.7MB/s|GPT⁺
     network: ws
     port: 443
-    server: 103.101.0.73
+    server: wwww.qarvian.ir
     tls: true
     type: vless
     udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    uuid: 7dee06cc-4bc8-43ca-a6c2-59f81107f2e3
     ws-opts:
       headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    xudp: true
-    packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - client-fingerprint: chrome
-    encryption: none
-    name: 虎窝小栈🇺🇸US⁻¹_3|0.9MB/s|GM
-    network: ws
-    port: 443
-    server: 43.174.195.1
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /fp=chrome
-    xudp: true
-    packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - client-fingerprint: chrome
-    name: 虎窝小栈🇩🇪DE⁻¹_2|2.5MB/s
-    network: ws
-    port: 443
-    server: 103.160.59.198
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.77 Safari/537.36
-      path: /fp=chrome
-    xudp: true
-    packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - client-fingerprint: chrome
-    name: 虎窝小栈🇦🇹AT⁻¹_1|1.3MB/s|GM⁻|Succeed
-    network: ws
-    port: 443
-    server: 173.242.51.189
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-    xudp: true
-    packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - client-fingerprint: chrome
-    name: 虎窝小栈🇧🇬BG⁻¹_1|3.2MB/s
-    network: ws
-    port: 443
-    server: 104.152.48.248
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /fp=chrome
-    xudp: true
-    packet-encoding: xudp
-    servername: snip.edgeoneai.cc.cd
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇸🇬SG²_8|1.6MB/s|GPT⁺|GM-US
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.27
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: 虎窝小栈🇸🇬SG²_9|0.6MB/s|GPT⁺|GM-US|History
-    network: ws
-    password: e20fd145-65f1-4aa3-96be-da0524bbb16e
-    port: 20230
-    server: us003.421421.xyz
-    skip-cert-verify: true
-    sni: www.alibaba.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+        Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: /
-  - client-fingerprint: chrome
+    xudp: true
+    packet-encoding: xudp
+    servername: firefox.com
+  - client-fingerprint: firefox
     encryption: none
-    name: 虎窝小栈🇺🇸US⁻¹_4|5.1MB/s|GM|History
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇵🇱PL²_1|5.5MB/s|GPT⁺
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: eq1GsjxpRmENTkUfjk_QPWUUqGNHwESqoJ7yFs-WpF0
+      short-id: "7f9831bb156cc9e2"
+    server: pl2.himoy.space
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+    xudp: true
+    packet-encoding: xudp
+    servername: pl2.himoy.space
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇭🇰HK⁻¹_1|0.8MB/s
     network: ws
     port: 443
-    server: saas.sin.fan
+    server: 103.38.236.248
     tls: true
     type: vless
     udp: true
@@ -607,33 +327,33 @@ proxies:
       headers:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.116 Safari/537.36
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
       path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
     xudp: true
     packet-encoding: xudp
     servername: snip.edgeoneai.cc.cd
-  - client-fingerprint: firefox
+  - client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇸🇬SG²_10|2.8MB/s|GPT⁺|GM-US
-    network: tcp
+    name: 虎窝小栈🇧🇬BG¹-BG⁰_1|3.4MB/s|GPT⁺|Succeed
+    network: ws
     port: 443
-    reality-opts:
-      public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
-      short-id: "7271129440ade8fa"
-    server: 194.116.236.113
+    server: 13.140.29.45
     tls: true
     type: vless
     udp: true
-    uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    ws-opts:
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/31.0.1650.57 Safari/537.36
+      path: /
     xudp: true
     packet-encoding: xudp
-    servername: api.mskvibe.fyi
+    servername: snip.edgeoneai.cc.cd
   - client-fingerprint: chrome
     encryption: none
-    name: 虎窝小栈🇫🇮FI⁻¹_2|3.0MB/s|GM⁻|Succeed
+    name: 虎窝小栈🇫🇮FI¹-RU⁰_1|5.0MB/s|GM⁻|Succeed
     network: ws
     port: 8443
     server: 139.100.226.187
@@ -651,30 +371,394 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: snip.edgeoneai.cc.cd
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
+  - client-fingerprint: unsafe
     encryption: none
-    name: 虎窝小栈🇩🇪DE²_1|2.1MB/s|GPT⁺|GM⁻
+    name: 虎窝小栈🇺🇸US¹-US⁰_3|5.4MB/s|GPT⁺
     network: ws
     port: 443
-    server: uiuxtestsdcv-development-r6dg9.lucity.app
+    server: 172.64.150.43
     tls: true
     type: vless
     udp: true
-    uuid: 58b06206-cd53-23d6-279a-0f0dd259cb0a
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
     ws-opts:
       headers:
-        Host: uiuxtestsdcv-development-r6dg9.lucity.app
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
-      path: /ws/58b06206-cd53-23d6-279a-0f0dd259cb0a
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /
     xudp: true
     packet-encoding: xudp
-    servername: uiuxtestsdcv-development-r6dg9.lucity.app
+    servername: snip.edgeoneai.cc.cd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇸🇬SG²_4|4.3MB/s|GPT⁺|GM
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
+      short-id: "5a42dbd7e26a0415"
+    server: 172.237.88.103
+    tls: true
+    type: vless
+    udp: true
+    uuid: efd11a89-7506-44ce-95b6-6654859f155b
+    servername: zoom.us
+  - client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: GunService
+    name: 虎窝小栈🇳🇱NL²_3|3.0MB/s|GPT⁺|GM⁻
+    network: grpc
+    port: 8451
+    reality-opts:
+      public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+      short-id: ""
+    server: 94.103.2.23
+    tls: true
+    type: vless
+    udp: true
+    uuid: a346c521-7a7f-452b-9356-a4893feb5982
+    xudp: true
+    packet-encoding: xudp
+    servername: github.com
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_4|0.6MB/s|GPT⁺|GM-US|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.72
+    type: ss
+    udp: true
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇸🇬SG²_5|2.5MB/s|GPT⁺
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: mk-wqC8YgfjMc89oFsT2HSpBMYB23kMURVBiXkeFHzg
+      short-id: "98c76776ef3d1f71"
+    server: budulai.himoy.space
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+    xudp: true
+    packet-encoding: xudp
+    servername: budulai.himoy.space
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🏴‍☠_1虎窝小栈🇺🇸US²_5|6.5MB/s|History
+    network: tcp
+    port: 30892
+    reality-opts:
+      public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+      short-id: "3d31326f95"
+    server: funagfrdfs.alixxplay.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    xudp: true
+    packet-encoding: xudp
+    servername: us1p1.xn--ghq880n3na965a.com
+  - alpn:
+      - h3
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US¹-US⁰_4|8.4MB/s|GPT⁺|GM|Succeed
+    network: ws
+    port: 443
+    server: 172.64.154.211
+    tls: true
+    type: vless
+    udp: true
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    ws-opts:
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: snip.edgeoneai.cc.cd
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇪🇪EE²_1|5.7MB/s|GPT⁺
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: Pb37t99NiJqm-lsTi4tucPFqRXIsek-5G5dqjIqVfxE
+      short-id: "15c87d0b99c0d132"
+    server: tlokexcm.himoy.space
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+    xudp: true
+    packet-encoding: xudp
+    servername: tlokexcm.himoy.space
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US⁻¹_2|6.2MB/s|GM
+    network: ws
+    port: 443
+    server: 104.17.167.134
+    tls: true
+    type: vless
+    udp: true
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    ws-opts:
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.104 Safari/537.36
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+    xudp: true
+    packet-encoding: xudp
+    servername: snip.edgeoneai.cc.cd
   - client-fingerprint: chrome
     encryption: none
-    name: 虎窝小栈🇰🇬KG⁻¹_1|1.3MB/s|GM
+    name: 虎窝小栈🇺🇸US⁻¹_3|0.9MB/s|GM|Succeed
+    network: ws
+    port: 443
+    server: 43.174.195.1
+    tls: true
+    type: vless
+    udp: true
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    ws-opts:
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /fp=chrome
+    xudp: true
+    packet-encoding: xudp
+    servername: snip.edgeoneai.cc.cd
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇪🇪EE²_2|2.5MB/s|GPT⁺
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: JOoD5ze_pwrMnQoAIRVieQM8SPJjiLJEw1fwx57iYgk
+      short-id: "bbd20b213341644c"
+    server: l415ng0o.himoy.space
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+    xudp: true
+    packet-encoding: xudp
+    servername: l415ng0o.himoy.space
+  - name: 虎窝小栈🇮🇳IN²_1|3.0MB/s|GPT⁺|GM|Succeed
+    password: Trojan@82164024
+    port: 443
+    server: in.tronsg.com
+    skip-cert-verify: true
+    sni: 127.0.0.1
+    type: trojan
+    udp: true
+    network: tcp
+    disable-sni: true
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US⁻¹_4|7.4MB/s|GM
+    network: ws
+    port: 443
+    server: 104.18.42.162
+    tls: true
+    type: vless
+    udp: true
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    ws-opts:
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /fp=chrome
+    xudp: true
+    packet-encoding: xudp
+    servername: snip.edgeoneai.cc.cd
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇷🇺RU²_1|2.0MB/s
+    password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+    port: 18443
+    server: 176.32.33.153
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_5|1.4MB/s|GPT⁺|GM-US|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.90
+    type: ss
+    udp: true
+  - name: 虎窝小栈🇸🇬SG²_6|3.3MB/s|GPT⁺|GM-US
+    password: 672445a0-a669-4978-8eb1-cfa5e6cdead4
+    port: 18333
+    server: us3.xiaoliyu.cyou
+    skip-cert-verify: true
+    sni: 127.0.0.1
+    type: hysteria2
+    udp: true
+    disable-sni: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇸🇬SG²_7|5.2MB/s|GPT⁺|GM
+    network: tcp
+    port: 447
+    reality-opts:
+      public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
+      short-id: "5a42dbd7e26a0415"
+    server: 172.237.88.103
+    tls: true
+    type: vless
+    udp: true
+    uuid: efd11a89-7506-44ce-95b6-6654859f155b
+    servername: netflix.com
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇸🇬SG²_8|0.7MB/s|GPT⁺
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: aow1gjMhnsFXqOuIulX3HBWiGI7m488euLPH6G5fcFA
+      short-id: "3446a8095e1788b4"
+    server: lv1.himoy.space
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+    xudp: true
+    packet-encoding: xudp
+    servername: lv1.himoy.space
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US⁻¹_5|8.5MB/s|GM|Succeed
+    network: ws
+    port: 443
+    server: 104.19.53.46
+    tls: true
+    type: vless
+    udp: true
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    ws-opts:
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /fp=chrome
+    xudp: true
+    packet-encoding: xudp
+    servername: snip.edgeoneai.cc.cd
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇸🇬SG²_9|0.8MB/s|GM⁻-AT
+    network: ws
+    port: 443
+    server: 130.78.185.4
+    tls: true
+    type: vless
+    udp: true
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    ws-opts:
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
+      path: /fp=chrome
+    xudp: true
+    packet-encoding: xudp
+    servername: snip.edgeoneai.cc.cd
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_6|2.7MB/s|GPT⁺|GM-US|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.36
+    type: ss
+    udp: true
+  - name: 虎窝小栈🇺🇸US²_2|0.7MB/s|GPT⁺|GM
+    network: tcp
+    port: 48805
+    server: a3.xtssc.top
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48aa91a2-049c-49ac-902c-285a78dda068
+    servername: a3.xtssc.top
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇸🇬SG²_10|3.4MB/s|Succeed
+    network: ws
+    port: 8443
+    server: 2.28.42.209
+    tls: true
+    type: vless
+    udp: true
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    ws-opts:
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    xudp: true
+    packet-encoding: xudp
+    servername: snip.edgeoneai.cc.cd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇨🇦CA²_1|3.0MB/s|GPT⁺
+    network: tcp
+    port: 2093
+    reality-opts:
+      public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+      short-id: "8a9725533854a7e8"
+    server: 213.152.165.203
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+    xudp: true
+    packet-encoding: xudp
+    servername: www.apple.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇸🇬SG²_11|1.0MB/s|GPT⁺|GM⁻-NL
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: p7X0vRL9R-23Ey-MZZZj7FY0g87nQq0Jzc01DwuryRk
+      short-id: "7597c5df264bcc10"
+    server: trend.eidoslab.link
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7072eeba-94fd-4fb3-92f2-a4506dd84cd8
+    xudp: true
+    packet-encoding: xudp
+    servername: trend.eidoslab.link
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇸🇬SG²_12|1.0MB/s|GPT⁺
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: AoPku9i0xSD2cCzJdPcUSSft8c_RkIZbsbP888VO938
+      short-id: "287b3d62899669d7"
+    server: lv2.himoy.space
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+    xudp: true
+    packet-encoding: xudp
+    servername: lv2.himoy.space
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇰🇬KG⁻¹_1|2.9MB/s|GM|Succeed
     network: ws
     port: 8443
     server: 188.240.213.98
@@ -691,15 +775,35 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: snip.edgeoneai.cc.cd
-  - alpn:
-      - h3
-      - h2
-    client-fingerprint: chrome
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_7|0.9MB/s|GPT⁺|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.54
+    type: ss
+    udp: true
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇳🇱NL²_4|2.1MB/s|GPT⁺
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: vWFi5WROH6RUA3U7MiULYSOBc9h1ZbXyYVUjwvvJn0E
+      short-id: "3bf45f37318782a0"
+    server: nl2.himoy.space
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+    xudp: true
+    packet-encoding: xudp
+    servername: nl2.himoy.space
+  - client-fingerprint: chrome
     encryption: none
-    name: 虎窝小栈🇭🇰HK⁻¹_3|14.6MB/s|GM
+    name: 虎窝小栈🇭🇰HK⁻¹_2|3.0MB/s|GM|History
     network: ws
     port: 443
-    server: 162.159.135.234
+    server: 162.159.130.234
     tls: true
     type: vless
     udp: true
@@ -708,13 +812,27 @@ proxies:
       headers:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.94 Safari/537.36
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+          Gecko) Chrome/43.0.2357.65 Safari/537.36
+      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: snip.edgeoneai.cc.cd
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇳🇱NL²_5|0.7MB/s|GPT⁺
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: DvPeuTyyvkarTBt9JFt_ejTP1xRgpYKM9SZnFNRV0kg
+      short-id: "802007e8b774f343"
+    server: nl3.himoy.space
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+    xudp: true
+    packet-encoding: xudp
+    servername: nl3.himoy.space
 proxy-groups:
   - name: 🚀 节点选择
     type: select
