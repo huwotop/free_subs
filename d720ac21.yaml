@@ -1,71 +1,23 @@
 proxies:
   - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_1|3.7MB/s|GPT⁺|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.27
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: 虎窝小栈🇸🇬SG²_1|4.0MB/s|GPT⁺
-    network: ws
-    password: humanity
-    port: 443
-    server: 172.66.0.172
-    skip-cert-verify: true
-    sni: www.cordweave.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /assignment
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_2|3.4MB/s|GPT⁺|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.72
-    type: ss
-    udp: true
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇵🇱PL²_1|2.5MB/s|GPT⁺
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 5QmUszafz1gigUjf3R2GwZ9RVsEwZT-polu0l8zfNgA
-      short-id: "830e615a39f4c811"
-    server: 177.1.192.67
-    tls: true
-    type: vless
-    udp: true
-    uuid: 706bce83-91db-4260-b175-cba29145cd56
-    xudp: true
-    packet-encoding: xudp
-    servername: up4.uni-plan.com
-  - client-fingerprint: qq
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇳🇱NL²_1|3.9MB/s|GPT⁺
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: d66SelbTIURp_YpyFF83ApzzPEQFxOiEbrO7TFSdDRI
-      short-id: "ff9881defc3b9cda"
-    server: 103.118.209.80
-    tls: true
-    type: vless
-    udp: true
-    uuid: 706bce83-91db-4260-b175-cba29145cd56
-    xudp: true
-    packet-encoding: xudp
-    servername: nlsq.giftsbattle.vip
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_3|2.6MB/s|GPT⁺|Succeed
+    name: 虎窝小栈🇮🇹IT²_1|4.4MB/s|GPT⁺|Succeed
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.45
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_2|3.9MB/s|GPT⁺|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.36
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_3|3.2MB/s|GPT⁺|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.54
     type: ss
     udp: true
   - cipher: aes-256-gcm
@@ -75,235 +27,22 @@ proxies:
     server: 202.50.253.18
     type: ss
     udp: true
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇵🇱PL²_2|6.4MB/s|GPT⁺
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: Lt3gSdGmfQMx50yH-OOJaNBSg80vzIveaNVwUUWJwzQ
-      short-id: "3952a220c86628a8"
-    server: 177.1.192.117
-    tls: true
-    type: vless
-    udp: true
-    uuid: 706bce83-91db-4260-b175-cba29145cd56
-    xudp: true
-    packet-encoding: xudp
-    servername: up7.uni-plan.com
   - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_5|4.2MB/s|GPT⁺|History
+    name: 虎窝小栈🇸🇬SG²_1|3.4MB/s|GPT⁺|History
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.54
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇺🇸US²_1|4.5MB/s|GPT⁺|GM-OM
-    network: raw
-    port: 443
-    reality-opts:
-      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-      short-id: "c39cc7310a"
-    server: 169.40.42.89
-    tls: true
-    type: vless
-    udp: true
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    xudp: true
-    packet-encoding: xudp
-    servername: yahoo.com
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_6|1.1MB/s|GPT⁺|GM-US|History
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.99
-    type: ss
-    udp: true
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇵🇱PL²_3|6.3MB/s|GPT⁺
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: PA7rbht6SKwvUgysJka_ffHvVEzl4s4RPDO3uPeuLxc
-      short-id: "e12ed4adc5aee929"
-    server: 177.1.192.90
-    tls: true
-    type: vless
-    udp: true
-    uuid: 706bce83-91db-4260-b175-cba29145cd56
-    xudp: true
-    packet-encoding: xudp
-    servername: up6.uni-plan.com
-  - client-fingerprint: firefox
-    encryption: none
-    grpc-opts:
-      grpc-service-name: 3e99d50d5740985d
-    name: 虎窝小栈🇸🇬SG²_2|3.7MB/s|GPT⁺
-    network: grpc
-    port: 443
-    server: 189.74.114.119
-    tls: true
-    type: vless
-    udp: true
-    uuid: abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5
-    xudp: true
-    packet-encoding: xudp
-    servername: api.mediaklenov.cc
-  - client-fingerprint: ios
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇺🇸US²_2|4.7MB/s|GPT⁺|GM-OM
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-      short-id: "c39cc7310a"
-    server: 169.40.42.89
-    tls: true
-    type: vless
-    udp: true
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    xudp: true
-    packet-encoding: xudp
-    servername: yahoo.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: 虎窝小栈🇦🇪AE²_1|7.0MB/s|GPT⁺
-    network: ws
-    port: 2083
-    server: 140.225.208.140
-    tls: true
-    type: vless
-    udp: true
-    uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-    ws-opts:
-      headers:
-        Host: ""
-        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-      path: /vless-ws
-    xudp: true
-    packet-encoding: xudp
-    servername: speedtestmark.com
-  - alpn:
-      - http/1.1
-    client-fingerprint: safari
-    encryption: none
-    name: 虎窝小栈🇦🇪AE²_2|2.5MB/s|GPT⁺
-    network: ws
-    port: 2083
-    server: 140.225.208.60
-    tls: true
-    type: vless
-    udp: true
-    uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-    ws-opts:
-      headers:
-        Host: ""
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.186 Safari/537.36
-      path: /vless-ws
-    xudp: true
-    packet-encoding: xudp
-    servername: speedtestmark.com
-  - client-fingerprint: qq
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇵🇱PL²_4|5.7MB/s|GPT⁺
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: rczv8z0BFqH3QS9PfFAzLYZY8Iao1yEBhwcRskkQugo
-      short-id: "b3e515e37815559d"
-    server: 177.1.192.38
-    tls: true
-    type: vless
-    udp: true
-    uuid: 706bce83-91db-4260-b175-cba29145cd56
-    xudp: true
-    packet-encoding: xudp
-    servername: upnl.giftsbattle.vip
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇸🇪SE²_1|2.9MB/s|GPT⁺
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: Dt6OmhEDOi-Y204u5jWdQsHIgof7g8i52NUnTGc-yjM
-      short-id: "ecb6f8fb31668176"
-    server: 171.25.158.163
-    tls: true
-    type: vless
-    udp: true
-    uuid: 706bce83-91db-4260-b175-cba29145cd56
-    xudp: true
-    packet-encoding: xudp
-    servername: s9se1.newagetechnologies.live
-  - client-fingerprint: qq
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇸🇬SG²_3|1.8MB/s|GPT⁺
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: eh8WqxaSUlfNmlGzFLYFYrJzk1novnvfU6qmaLLOiX4
-      short-id: "72d410ce5f2036c9"
-    server: 62.60.229.216
-    tls: true
-    type: vless
-    udp: true
-    uuid: 706bce83-91db-4260-b175-cba29145cd56
-    xudp: true
-    packet-encoding: xudp
-    servername: aezaf1.uni-plan.com
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_7|1.8MB/s|GPT⁺|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.63
+    server: 202.50.253.81
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_8|3.6MB/s|GPT⁺|Succeed
+    name: 虎窝小栈🇮🇹IT²_5|2.0MB/s|GPT⁺|Succeed
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.36
+    server: 202.50.253.72
     type: ss
     udp: true
-  - name: 虎窝小栈🇺🇸US²_3|5.1MB/s|GM|History
-    network: ws
-    port: 8080
-    server: 208.84.100.209
-    type: vless
-    udp: true
-    uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-    ws-opts:
-      headers:
-        Host: ""
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇬🇧GB²_1|3.8MB/s|GPT⁺
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: QvT-t_h_AF2EAT4Ggh_a6pcCK3StY8G9WCXn6-dJbxk
-      short-id: "51079f144d661484"
-    server: 13.143.180.104
-    tls: true
-    type: vless
-    udp: true
-    uuid: a0fa7e19-70ec-41e0-b0cc-bcc984d4201a
-    xudp: true
-    packet-encoding: xudp
-    servername: s12.bsh-net.ru
-  - client-fingerprint: chrome
-    name: 虎窝小栈🇳🇱NL²_2|4.4MB/s|GPT⁺
+    name: 虎窝小栈🇳🇱NL²_1|0.6MB/s|GPT⁺|Succeed
     network: ws
     password: humanity
     port: 443
@@ -317,6 +56,13 @@ proxies:
         User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
           Chrome/70.0.3538.67 Safari/537.36
       path: /assignment
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_6|2.0MB/s|GPT⁺|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.27
+    type: ss
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
