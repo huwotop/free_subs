@@ -1,6 +1,6 @@
 ## 订阅节点每日人工检测筛选！
 ## CDN 加速订阅链接：
-https://v4.gh-proxy.org/https://raw.githubusercontent.com/huwotop/free_subs/refs/heads/main/d720ac21.yaml
+https://v4.gh-proxy.org/https://raw.githubusercontent.com/huwotop/free_subs/refs/heads/main/bb8196e9.yaml
 
 ## mihomo内核 FlClash 下载
 | 平台 | 下载地址 |

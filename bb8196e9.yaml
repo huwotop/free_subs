@@ -1,0 +1,1716 @@
+proxies:
+  - name: 虎窝小栈🇺🇸US²_1|5.2MB/s|GPT⁺|GM
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    port: 443
+    server: 167.88.61.198
+    skip-cert-verify: false
+    sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
+    type: trojan
+    udp: true
+    network: tcp
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇨🇿CZ²_1|3.1MB/s|GPT⁺|GM⁻
+    network: raw
+    port: 2063
+    reality-opts:
+      public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+      short-id: ""
+    server: 31.77.13.22
+    tls: true
+    type: vless
+    udp: true
+    uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+    xudp: true
+    packet-encoding: xudp
+    servername: rusbid.de
+  - client-fingerprint: safari
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇪🇪EE²_1|3.3MB/s|GPT⁺
+    network: tcp
+    port: 7443
+    server: fr1.robotodata.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6116f0f3-15eb-4217-b38e-16514dc00ba1
+    xudp: true
+    packet-encoding: xudp
+    servername: ru2.datacore-tech.ru
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇩🇪DE²_1|4.9MB/s|GPT⁺|GM-US
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: 1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8
+      short-id: "385cb18df0892069"
+    server: de8.vpngold.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: a52fd54b-ba4d-4d11-8e00-301e2646cd66
+    xudp: true
+    packet-encoding: xudp
+    servername: de8.vpngold.ru
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_2|1.7MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: piracy-android.video-streams.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 71ee5343-b431-44be-bed7-22b9b9f7253c
+    ws-opts:
+      headers:
+        Host: ""
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/59.0.3071.125 Mobile Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: piracy-android.video-streams.org
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_3|3.0MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: minimize-evenness.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: e12bb1dc-d315-47e3-9184-cb655afe6421
+    ws-opts:
+      headers:
+        Host: minimize-evenness.cdn-content.com
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: minimize-evenness.cdn-content.com
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_1|2.4MB/s|GPT⁺|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.18
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_4|0.6MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: piracy-android.video-streams.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 81a12262-81a7-45dc-8157-a6abc0c0cda3
+    ws-opts:
+      headers:
+        Host: ""
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: piracy-android.video-streams.org
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_2|1.6MB/s|GPT⁺|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.81
+    type: ss
+    udp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: ios
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_5|1.2MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: piracy-android.video-streams.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 909259b0-0a30-4ef5-bfd8-5ffe5d99cb56
+    ws-opts:
+      headers:
+        Host: piracy-android.video-streams.org
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: piracy-android.video-streams.org
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_3|0.6MB/s|GPT⁺|History
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.63
+    type: ss
+    udp: true
+  - client-fingerprint: firefox
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_6|3.3MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: 151.101.193.242
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9b733a43-cf91-4ba0-bd76-6ca8b42e827a
+    ws-opts:
+      headers:
+        Host: piracy-android.video-streams.org
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: piracy-android.video-streams.org
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_7|0.6MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: ghosts-spasm.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5d76bd7c-d538-432f-a7d8-9be364427a19
+    ws-opts:
+      headers:
+        Host: ghosts-spasm.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: ghosts-spasm.quick-cdn.net
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 虎窝小栈🇸🇬SG²_1|1.1MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: minimize-evenness.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4ea9c6dd-4d73-49f2-82ce-b80b1b5dd646
+    ws-opts:
+      headers:
+        Host: minimize-evenness.cdn-content.com
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: minimize-evenness.cdn-content.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_8|1.7MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: adheres-scruple.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 566e98ad-4a56-4c1d-9dbc-83987079731b
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_4|1.7MB/s|GPT⁺|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.36
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇸🇬SG²_2|0.9MB/s
+    network: ws
+    port: 443
+    server: 151.101.193.242
+    tls: true
+    type: vless
+    udp: true
+    uuid: b0cf4078-96b8-4e11-80a8-0f9352565a16
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US²_9|1.2MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: adheres-scruple.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0259b0b9-c954-4de2-988e-a5877b2cd6e5
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.110 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - client-fingerprint: firefox
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_10|3.0MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: 151.101.129.242
+    tls: true
+    type: vless
+    udp: true
+    uuid: f2a7b23e-6ec3-432b-8381-5219d80f606f
+    ws-opts:
+      headers:
+        Host: piracy-android.video-streams.org
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: piracy-android.video-streams.org
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇲🇾MY²_1|7.8MB/s|GPT⁺|GM
+    password: 5931134d1cde66bf83a54acdfebe7ab2
+    port: 443
+    server: 47.250.84.25
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+    network: tcp
+  - client-fingerprint: chrome
+    encryption: none
+    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+    name: 虎窝小栈🇺🇸US²_11|1.0MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: 146.75.57.111
+    tls: true
+    type: vless
+    udp: true
+    uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
+    ws-opts:
+      headers:
+        Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: cdn.akamai.steamstatic.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_12|0.6MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: adheres-scruple.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4f46eb95-a57f-457f-895f-f50e6ad9f164
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2228.0 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US²_13|2.5MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: adheres-scruple.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8a9b898d-5658-4f77-9fe9-5ff5b61fa107
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.63 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - alpn:
+      - h3
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_14|3.3MB/s
+    network: ws
+    port: 443
+    server: 151.101.1.242
+    tls: true
+    type: vless
+    udp: true
+    uuid: 056d58b7-2577-4f82-b7a8-2473202419c2
+    ws-opts:
+      headers:
+        Host: minimize-evenness.cdn-content.com
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: minimize-evenness.cdn-content.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_15|3.1MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: adheres-scruple.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3c8a0eb8-37a3-4e69-8c5b-7ef465095710
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US²_16|0.5MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: minimize-evenness.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: d78a47b6-dbd2-4ed1-8749-17a22dbe8c3e
+    ws-opts:
+      headers:
+        Host: minimize-evenness.cdn-content.com
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+          Mobile Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: minimize-evenness.cdn-content.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_17|1.0MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: grimness-backlogs.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: f1646667-a135-4246-9a9a-de0c53b0dc8d
+    ws-opts:
+      headers:
+        Host: grimness-backlogs.cdn-content.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/42.0.2311.90 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: grimness-backlogs.cdn-content.com
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US²_18|0.7MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: 151.101.65.242
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57a8ea50-1a8d-4e9f-b6e8-e991a9914a8a
+    ws-opts:
+      headers:
+        Host: ghosts-spasm.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.79 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: ghosts-spasm.quick-cdn.net
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US²_19|0.7MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: 151.101.1.242
+    tls: true
+    type: vless
+    udp: true
+    uuid: b0cf4078-96b8-4e11-80a8-0f9352565a16
+    ws-opts:
+      headers:
+        Host: minimize-evenness.cdn-content.com
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: minimize-evenness.cdn-content.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US²_20|1.7MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: minimize-evenness.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: c7f0b683-61ea-48c5-93f1-783459ba2124
+    ws-opts:
+      headers:
+        Host: minimize-evenness.cdn-content.com
+        User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile
+          Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: minimize-evenness.cdn-content.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_21|0.7MB/s
+    network: ws
+    port: 443
+    server: adheres-scruple.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: ecbc4229-e8d3-4607-8f02-fd592c9a0743
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.167 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_22|0.9MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: grimness-backlogs.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9819d5c6-bc6e-4e31-8af7-c023ecff6022
+    ws-opts:
+      headers:
+        Host: grimness-backlogs.cdn-content.com
+        User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: grimness-backlogs.cdn-content.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_23|0.9MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: bounded-crammed.video-streams.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 18b91bec-1abf-45c0-bd06-f2c6ed22a125
+    ws-opts:
+      headers:
+        Host: bounded-crammed.video-streams.org
+        User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: bounded-crammed.video-streams.org
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_24|0.9MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: ghosts-spasm.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: bc97af40-e59a-4d96-b0a3-349c35e45b48
+    ws-opts:
+      headers:
+        Host: ghosts-spasm.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: ghosts-spasm.quick-cdn.net
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_25|5.2MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: ghosts-spasm.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: ad19e43c-362d-42cb-9c2b-a6955cbc6af0
+    ws-opts:
+      headers:
+        Host: ghosts-spasm.quick-cdn.net
+        User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+          Gecko) Chrome/11.0.696.3 Safari/534.24
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: ghosts-spasm.quick-cdn.net
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_26|3.8MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: minimize-evenness.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3c8a0eb8-37a3-4e69-8c5b-7ef465095710
+    ws-opts:
+      headers:
+        Host: minimize-evenness.cdn-content.com
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: minimize-evenness.cdn-content.com
+  - down: ""
+    fingerprint: ""
+    name: 虎窝小栈🇷🇺RU²_1|2.6MB/s|GPT⁺
+    obfs: ""
+    obfs-password: ""
+    password: 69e41e64-a832-471a-b740-94577ca85520
+    port: 443
+    server: 217.60.73.56
+    skip-cert-verify: true
+    sni: forshynewh.duckdns.org
+    type: hysteria2
+    up: ""
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇺🇸US²_27|3.7MB/s|GPT⁺
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+      short-id: ""
+    server: 193.239.179.15
+    tls: true
+    type: vless
+    udp: true
+    uuid: df08fd27-d7c2-4cd2-8a79-a32287682a79
+    xudp: true
+    packet-encoding: xudp
+    servername: worldoftanks.asia
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US²_28|1.2MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: grimness-backlogs.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: c7f0b683-61ea-48c5-93f1-783459ba2124
+    ws-opts:
+      headers:
+        Host: grimness-backlogs.cdn-content.com
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: grimness-backlogs.cdn-content.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇸🇬SG²_3|1.4MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: grimness-backlogs.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 01520a52-6d92-4683-b525-00d5df476dce
+    ws-opts:
+      headers:
+        Host: grimness-backlogs.cdn-content.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/67.0.3396.99 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: grimness-backlogs.cdn-content.com
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_5|1.2MB/s|GPT⁺|History
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.90
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_29|3.0MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: adheres-scruple.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 51a8d623-0d6d-4018-82f4-84b76d5bd015
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.93 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_30|0.7MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: adheres-scruple.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 316f013e-4cf9-4a02-8415-73c22932594a
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US²_31|0.8MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: minimize-evenness.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 62cd6e5a-f41a-462a-8df9-31ab0ef75e46
+    ws-opts:
+      headers:
+        Host: minimize-evenness.cdn-content.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.101 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: minimize-evenness.cdn-content.com
+  - client-fingerprint: firefox
+    encryption: none
+    name: 虎窝小栈🇳🇱NL²_1|3.6MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: 95.81.102.121
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48eb49ce-38b5-4ed1-b6ab-8eaf37cde710
+    ws-opts:
+      headers:
+        Host: nodeam.easyvpn.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /easyvpn-ws
+    xudp: true
+    packet-encoding: xudp
+    servername: nodeam.easyvpn.dev
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_6|1.7MB/s|GPT⁺|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.54
+    type: ss
+    udp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_32|1.0MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: minimize-evenness.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5fccaf5f-6cc7-46a1-8a41-03c0a4231e6c
+    ws-opts:
+      headers:
+        Host: minimize-evenness.cdn-content.com
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: minimize-evenness.cdn-content.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: firefox
+    name: 虎窝小栈🇺🇸US²_33|1.1MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: 151.101.65.242
+    tls: true
+    type: vless
+    udp: true
+    uuid: 51a8d623-0d6d-4018-82f4-84b76d5bd015
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_34|0.9MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: 151.101.1.242
+    tls: true
+    type: vless
+    udp: true
+    uuid: 63fcd1af-02c5-4048-bc03-def26ebe949a
+    ws-opts:
+      headers:
+        Host: piracy-android.video-streams.org
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: piracy-android.video-streams.org
+  - client-fingerprint: firefox
+    name: 虎窝小栈🇸🇬SG²_4|0.9MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: 151.101.193.242
+    tls: true
+    type: vless
+    udp: true
+    uuid: 51a8d623-0d6d-4018-82f4-84b76d5bd015
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_35|2.1MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: ghosts-spasm.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 01520a52-6d92-4683-b525-00d5df476dce
+    ws-opts:
+      headers:
+        Host: ghosts-spasm.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: ghosts-spasm.quick-cdn.net
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_36|1.1MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: adheres-scruple.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0f0e6a6c-f448-4931-b5a3-0fcdcd6dacec
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US²_37|1.0MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: adheres-scruple.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: c7f0b683-61ea-48c5-93f1-783459ba2124
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US²_38|2.2MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: bounded-crammed.video-streams.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3d5f6543-8d96-4e94-b0dc-0a4bc7c3b363
+    ws-opts:
+      headers:
+        Host: bounded-crammed.video-streams.org
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: bounded-crammed.video-streams.org
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_39|2.1MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: bounded-crammed.video-streams.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7430b11a-3b3e-4806-9a44-638caf36cabb
+    ws-opts:
+      headers:
+        Host: bounded-crammed.video-streams.org
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.85 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: bounded-crammed.video-streams.org
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_40|1.7MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: bounded-crammed.video-streams.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 91c35e01-00bf-41f5-94e4-71539222d255
+    ws-opts:
+      headers:
+        Host: bounded-crammed.video-streams.org
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/42.0.2311.90 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: bounded-crammed.video-streams.org
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_41|0.9MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: grimness-backlogs.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 85ab5d03-5d67-4a95-b1f5-3f1f62d64625
+    ws-opts:
+      headers:
+        Host: grimness-backlogs.cdn-content.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: grimness-backlogs.cdn-content.com
+  - client-fingerprint: qq
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇺🇸US²_42|2.6MB/s|GPT⁺|GM|History
+    network: raw
+    port: 443
+    reality-opts:
+      public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
+      short-id: ""
+    server: finlandlanzarotte.live
+    tls: true
+    type: vless
+    udp: true
+    uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+    xudp: true
+    packet-encoding: xudp
+    servername: finlandlanzarotte.live
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇩🇪DE²_2|3.5MB/s|GPT⁺|GM-US
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: 1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8
+      short-id: "385cb18df0892069"
+    server: 92.243.74.224
+    tls: true
+    type: vless
+    udp: true
+    uuid: a52fd54b-ba4d-4d11-8e00-301e2646cd66
+    xudp: true
+    packet-encoding: xudp
+    servername: de8.vpngold.ru
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_43|1.6MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: piracy-android.video-streams.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: f2a7b23e-6ec3-432b-8381-5219d80f606f
+    ws-opts:
+      headers:
+        Host: piracy-android.video-streams.org
+        User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: piracy-android.video-streams.org
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇸🇬SG²_5|0.7MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: piracy-android.video-streams.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 62cd6e5a-f41a-462a-8df9-31ab0ef75e46
+    ws-opts:
+      headers:
+        Host: piracy-android.video-streams.org
+        User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/63.0.3239.111 Mobile Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: piracy-android.video-streams.org
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇨🇿CZ²_2|2.9MB/s|GPT⁺|History
+    network: tcp
+    port: 2063
+    reality-opts:
+      public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+      short-id: ""
+    server: cz-prg.dontblockmepls.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+    servername: rusbid.de
+  - client-fingerprint: firefox
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_44|0.7MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: 151.101.129.242
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7430b11a-3b3e-4806-9a44-638caf36cabb
+    ws-opts:
+      headers:
+        Host: bounded-crammed.video-streams.org
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: bounded-crammed.video-streams.org
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 虎窝小栈🇺🇸US²_45|1.1MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: ghosts-spasm.quick-cdn.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3d5f6543-8d96-4e94-b0dc-0a4bc7c3b363
+    ws-opts:
+      headers:
+        Host: ghosts-spasm.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: ghosts-spasm.quick-cdn.net
+  - client-fingerprint: chrome
+    name: 虎窝小栈🇸🇬SG²_6|0.9MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: 151.101.129.242
+    tls: true
+    type: vless
+    udp: true
+    uuid: cd9e00aa-3581-42e4-a35c-56ae3a521159
+    ws-opts:
+      headers:
+        Host: minimize-evenness.cdn-content.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: minimize-evenness.cdn-content.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 虎窝小栈🇺🇸US²_46|1.0MB/s|GPT⁺
+    network: ws
+    port: 443
+    server: grimness-backlogs.cdn-content.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: d1ae5c78-3b70-40e6-899d-9f3650208368
+    ws-opts:
+      headers:
+        Host: grimness-backlogs.cdn-content.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/42.0.2311.90 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: grimness-backlogs.cdn-content.com
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🏴‍☠_1虎窝小栈🇮🇹IT²_5|Succeed|3.4MB/s|GPT⁺|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.72
+    type: ss
+    udp: true
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🚀 手动切换
+    include-all: true
+    type: select
+  - name: ♻️ 自动选择
+    type: url-test
+    include-all: true
+    interval: 300
+    tolerance: 50
+  - name: 📲 电报消息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 💬 Ai平台
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎥 奈飞节点
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇨🇳 台湾节点
+      - 🇭🇰 香港节点
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🚀 手动切换
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软Bing
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🎶 网易音乐
+    type: select
+    include-all: true
+    filter: (?i)网易|音乐|NetEase|Music
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🇭🇰 香港节点
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇯🇵 日本节点
+    include-all: true
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇺🇲 美国节点
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇨🇳 台湾节点
+    include-all: true
+    filter: (?i)台|新北|彰化|TW|Taiwan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇸🇬 狮城节点
+    include-all: true
+    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇰🇷 韩国节点
+    include-all: true
+    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🎥 奈飞节点
+    include-all: true
+    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
+    type: select
+rule-providers:
+  LocalAreaNetwork:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
+    path: ./ruleset/LocalAreaNetwork.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  UnBan:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list
+    path: ./ruleset/UnBan.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanAD:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list
+    path: ./ruleset/BanAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanProgramAD:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
+    path: ./ruleset/BanProgramAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleFCM:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/GoogleFCM.list
+    path: ./ruleset/GoogleFCM.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleCN:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
+    path: ./ruleset/GoogleCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  SteamCN:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/SteamCN.list
+    path: ./ruleset/SteamCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bing:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Bing.list
+    path: ./ruleset/Bing.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OneDrive:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/OneDrive.list
+    path: ./ruleset/OneDrive.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Microsoft:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
+    path: ./ruleset/Microsoft.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Apple:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Apple.list
+    path: ./ruleset/Apple.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Telegram:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Telegram.list
+    path: ./ruleset/Telegram.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  AI:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/AI.list
+    path: ./ruleset/AI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OpenAi:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OpenAi.list
+    path: ./ruleset/OpenAi.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  NetEaseMusic:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/NetEaseMusic.list
+    path: ./ruleset/NetEaseMusic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Epic:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Epic.list
+    path: ./ruleset/Epic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Origin:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Origin.list
+    path: ./ruleset/Origin.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Sony:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Sony.list
+    path: ./ruleset/Sony.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Steam:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Steam.list
+    path: ./ruleset/Steam.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Nintendo:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Nintendo.list
+    path: ./ruleset/Nintendo.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  YouTube:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/YouTube.list
+    path: ./ruleset/YouTube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Netflix:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Netflix.list
+    path: ./ruleset/Netflix.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bahamut:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bahamut.list
+    path: ./ruleset/Bahamut.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BilibiliHMT:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/BilibiliHMT.list
+    path: ./ruleset/BilibiliHMT.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bilibili:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bilibili.list
+    path: ./ruleset/Bilibili.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaMedia.list
+    path: ./ruleset/ChinaMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyMedia.list
+    path: ./ruleset/ProxyMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyGFWlist:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaDomain:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaCompanyIp:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Download:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
+    path: ./ruleset/Download.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+rules:
+  - PROCESS-NAME,subs-check.exe,🎯 全球直连
+  - PROCESS-NAME,subs-check,🎯 全球直连
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 广告拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Bing,Ⓜ️ 微软Bing
+  - RULE-SET,OneDrive,Ⓜ️ 微软云盘
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报消息
+  - RULE-SET,AI,💬 Ai平台
+  - RULE-SET,NetEaseMusic,🎶 网易音乐
+  - RULE-SET,Epic,🎮 游戏平台
+  - RULE-SET,Origin,🎮 游戏平台
+  - RULE-SET,Sony,🎮 游戏平台
+  - RULE-SET,Steam,🎮 游戏平台
+  - RULE-SET,Nintendo,🎮 游戏平台
+  - RULE-SET,YouTube,📹 油管视频
+  - RULE-SET,Netflix,🎥 奈飞视频
+  - RULE-SET,Bahamut,📺 巴哈姆特
+  - RULE-SET,BilibiliHMT,📺 哔哩哔哩
+  - RULE-SET,Bilibili,📺 哔哩哔哩
+  - RULE-SET,ChinaMedia,🌏 国内媒体
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
