@@ -1,203 +1,67 @@
 proxies:
-  - client-fingerprint: chrome
-    name: 虎窝小栈🇪🇸ES²_1|3.6MB/s|GPT⁺|GM-US
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
-      short-id: "974f7f8f"
-    server: 156.252.229.136
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3e21e3d3-6d26-4155-b851-764dd8e8c6b5
-    xudp: true
-    packet-encoding: xudp
-    servername: play.googleapis.com
-  - client-fingerprint: chrome
-    name: 虎窝小栈🇸🇬SG²_1|4.2MB/s|GPT⁺|GM
-    network: ws
-    password: 8deb189a-3aed-4865-843b-b72dae954c46
-    port: 443
-    server: 172.236.139.181
-    skip-cert-verify: true
-    sni: api.85s.me
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: /
-  - cipher: chacha20-ietf-poly1305
-    name: 虎窝小栈🇲🇾MY²_1|0.5MB/s|GPT⁺|Succeed
-    password: 28789988-887e-4e41-83cd-27bbfb7999ad
-    port: 40006
-    server: xunlinknode.csdjhajkshdjkas.com
-    type: ss
-    udp: true
   - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_1|4.1MB/s|GPT⁺|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.54
-    type: ss
-    udp: true
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇫🇮FI²_1|3.3MB/s|GPT⁺|GM-US
-    network: tcp
-    port: 8445
-    reality-opts:
-      public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
-      short-id: "1a2b3c4d"
-    server: 89.144.53.4
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
-    xudp: true
-    packet-encoding: xudp
-    servername: videos.porsche.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇮🇷IR²_1|1.1MB/s|GPT⁺|GM-US
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-      short-id: "69984b9e02545831"
-    server: 198.16.113.219
-    tls: true
-    type: vless
-    udp: true
-    uuid: e3e0e1c3-599e-4ae1-8ad4-d9e90effacc4
-    xudp: true
-    packet-encoding: xudp
-    servername: www.apple.com
-  - client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: neurex
-    name: 虎窝小栈🇳🇱NL²_1|0.5MB/s|GPT⁺
-    network: grpc
-    port: 443
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    server: 79.141.164.125
-    tls: true
-    type: vless
-    udp: true
-    uuid: 99900f66-f01e-4f3a-a4c6-265a19a8af76
-    xudp: true
-    packet-encoding: xudp
-    servername: nla.kosmosapp.net
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_2|2.9MB/s|GPT⁺|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.81
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-    name: 虎窝小栈🏴‍☠_1@DeltaKroneckerGithub-619|4.7MB/s|GPT⁺
-    network: ws
-    port: 443
-    server: 146.75.57.111
-    tls: true
-    type: vless
-    udp: true
-    uuid: afed9510-8648-49c6-9fbd-c2d4d8bdd417
-    ws-opts:
-      headers:
-        Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: cdn.akamai.steamstatic.com
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🏴‍☠_2虎窝小栈🇮🇹IT²_6|Succeed|3.4MB/s|GPT⁺|Succeed
+    name: 虎窝小栈🇸🇬SG²_1|1.4MB/s|GPT⁺|Succeed
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.63
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: 虎窝小栈🏴‍☠_3虎窝小栈🇮🇹IT²_4|3.5MB/s|GPT⁺|History
+    name: 虎窝小栈🇮🇹IT²_1|3.8MB/s|GPT⁺|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.45
+    type: ss
+    udp: true
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇳🇱NL²_1|3.2MB/s|GPT⁺
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+      short-id: ""
+    server: 72.56.38.83
+    tls: true
+    type: vless
+    udp: true
+    uuid: Fluffy_VPN-zKZUa4Ie
+    xudp: true
+    packet-encoding: xudp
+    servername: absolute-disaster.org
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_2|2.8MB/s|GPT⁺|Succeed
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.36
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: 虎窝小栈🏴‍☠_4虎窝小栈🇮🇹IT²_2|History|3.6MB/s|GPT⁺|Succeed
+    name: 虎窝小栈🇸🇬SG²_2|4.2MB/s|GPT⁺|Succeed
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.27
     type: ss
     udp: true
-  - client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: neurex
-    name: 虎窝小栈🏴‍☠_5@DeltaKroneckerGithub-413|0.9MB/s|GPT⁺
-    network: grpc
-    port: 443
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    server: 79.141.164.125
-    tls: true
-    type: vless
-    udp: true
-    uuid: 52a7c001-4c6f-4ae5-8098-01991dfb7ff6
-    xudp: true
-    packet-encoding: xudp
-    servername: nla.kosmosapp.net
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: 虎窝小栈🏴‍☠_6@DeltaKroneckerGithub-350|0.5MB/s|GPT⁺|GM-SG
-    network: ws
-    port: 465
-    server: hw6.divarkhaghazi.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 09f30c46-3964-41ce-882a-72aee83ddd42
-    ws-opts:
-      headers:
-        Host: hw6.divarkhaghazi.com.
-        User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: hw6.divarkhaghazi.com.
   - cipher: aes-256-gcm
-    name: 虎窝小栈🏴‍☠_7虎窝小栈🇮🇹IT²_3|Succeed|1.6MB/s|Succeed
+    name: 虎窝小栈🇮🇹IT²_3|2.8MB/s|GPT⁺|Succeed
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.72
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: 虎窝小栈🏴‍☠_8虎窝小栈🇸🇬SG²_4|5.3MB/s|History
+    name: 虎窝小栈🇮🇹IT²_4|2.2MB/s|GPT⁺|Succeed
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.99
+    server: 202.50.253.81
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: 虎窝小栈🏴‍☠_9虎窝小栈🇮🇹IT²_7|History|4.4MB/s|Succeed
+    name: 虎窝小栈🇮🇹IT²_5|2.2MB/s|GPT⁺|GM-US|History
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.45
+    server: 202.50.253.90
     type: ss
     udp: true
 proxy-groups:
