@@ -1,72 +1,57 @@
 proxies:
   - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_1|6.0MB/s|GPT⁺|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.36
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_2|4.6MB/s|GPT⁺|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.45
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_3|3.7MB/s|GPT⁺|Succeed
+    name: 虎窝小栈🇸🇬SG²_1|3.7MB/s|GPT⁺|Succeed
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.27
     type: ss
     udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_4|2.3MB/s|GPT⁺|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.81
-    type: ss
+  - name: 虎窝小栈🇸🇬SG²_2|13.9MB/s|GPT⁺|History
+    password: ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh
+    port: 8443
+    server: 160.21.74.183
+    skip-cert-verify: true
+    sni: 160.21.74.183
+    type: trojan
     udp: true
+    network: tcp
   - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_5|1.3MB/s|GPT⁺|GM-US|Succeed
+    name: 虎窝小栈🇮🇹IT²_1|3.4MB/s|GPT⁺|Succeed
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.90
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_6|4.4MB/s|GPT⁺|History
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.54
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_7|2.5MB/s|GPT⁺|GM-US|History
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.99
+    server: 202.50.253.36
     type: ss
     udp: true
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇩🇪DE²_1|2.6MB/s|GPT⁺|GM-US
+    name: 虎窝小栈🇩🇪DE²_1|3.8MB/s
+    password: 6cddea99-9b18-4d42-8638-131bd9f5374f
+    port: 443
+    server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+    skip-cert-verify: true
+    sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+    type: trojan
+    udp: true
     network: tcp
-    port: 8443
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 虎窝小栈🇦🇹AT²_1|2.7MB/s|GPT⁺|GM-GB
+    network: tcp
+    port: 443
     reality-opts:
-      public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-      short-id: "69984b9e02545831"
-    server: 198.16.113.220
+      public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
+      short-id: "41ae8e266bc3346f"
+    server: 178.22.31.72
     tls: true
     type: vless
     udp: true
-    uuid: 98a24806-141a-43d3-b094-bd66c4eb93b8
+    uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
     xudp: true
     packet-encoding: xudp
-    servername: www.apple.com
+    servername: at1.japancase.site
   - client-fingerprint: edge
     flow: xtls-rprx-vision
-    name: 虎窝小栈🇩🇪DE²_2|4.1MB/s|GPT⁺
+    name: 虎窝小栈🇦🇹AT²_2|1.0MB/s|GPT⁺|Succeed
     network: raw
     port: 443
     reality-opts:
@@ -80,113 +65,9 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: at1.japancase.site
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇹🇷TR²_1|3.1MB/s|GPT⁺|GM⁻-DE
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
-      short-id: "41ae8e266bc3346f"
-    server: 198.105.123.224
-    tls: true
-    type: vless
-    udp: true
-    uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-    xudp: true
-    packet-encoding: xudp
-    servername: tr1.japancase.site
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: 虎窝小栈🇮🇷IR²_1|2.1MB/s|GPT⁺|GM-US|History
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-      short-id: "69984b9e02545831"
-    server: 198.16.113.219
-    tls: true
-    type: vless
-    udp: true
-    uuid: e3e0e1c3-599e-4ae1-8ad4-d9e90effacc4
-    xudp: true
-    packet-encoding: xudp
-    servername: www.apple.com
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇩🇪DE²_3|2.9MB/s
-    network: raw
-    port: 443
-    reality-opts:
-      public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
-      short-id: "41ae8e266bc3346f"
-    server: 178.22.31.72
-    tls: true
-    type: vless
-    udp: true
-    uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-    xudp: true
-    packet-encoding: xudp
-    servername: at1.japancase.site
-  - client-fingerprint: ios
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇫🇷FR²_1|3.3MB/s|GPT⁺|GM⁻-NL
-    network: raw
-    port: 443
-    reality-opts:
-      public-key: iaJ8vIpfWkkzA-Tegc_wIQSF7DWKm2yTYCd3kvaGXig
-      short-id: "d9d9e325a7f069e2"
-    server: de3.japancase.site
-    tls: true
-    type: vless
-    udp: true
-    uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-    xudp: true
-    packet-encoding: xudp
-    servername: de3.japancase.site
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇯🇵JP²_1|9.8MB/s|GPT⁺|GM
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: Z7B8VKvjAiBH93XEkHFWCVBfK8Mu5HTLtAwfr5LuYlk
-      short-id: "00b0389a"
-    server: ga1data.xyy123.bid
-    tls: true
-    type: vless
-    udp: true
-    uuid: 81f686e2-0700-4e7d-b3aa-2f7fc544bcc3
-    servername: www.amzn.com
-  - client-fingerprint: firefox
-    encryption: none
-    grpc-opts:
-      grpc-service-name: 138-124-86-230-sslip-io
-    name: 虎窝小栈🇨🇭CH²_1|2.9MB/s|GPT⁺
-    network: grpc
-    port: 48115
-    server: 138.124.86.230
-    tls: true
-    type: vless
-    udp: true
-    uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
-    xudp: true
-    packet-encoding: xudp
-    servername: 138-124-86-230.sslip.io
-  - client-fingerprint: chrome
-    name: 虎窝小栈🇺🇸US²_1|3.6MB/s
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    port: 443
-    server: 216.106.186.46
-    skip-cert-verify: false
-    sni: cdn.findlocaljobnetworkandbuildcommunityconnections.com
-    type: trojan
-    udp: true
-    network: tcp
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇮🇷IR²_2|4.0MB/s|GPT⁺|History
+    name: 虎窝小栈🇩🇪DE²_2|0.6MB/s|GPT⁺|Succeed
     network: tcp
     port: 8443
     reality-opts:
@@ -200,23 +81,43 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.apple.com
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇸🇬SG²_3|2.8MB/s|GPT⁺|History
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.72
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_2|1.2MB/s|GPT⁺|History
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.18
+    type: ss
+    udp: true
   - client-fingerprint: ios
-    encryption: none
     flow: xtls-rprx-vision
-    name: 虎窝小栈🇳🇱NL²_1|2.8MB/s|GPT⁺|GM⁻
+    name: 虎窝小栈🇳🇱NL²_1|3.5MB/s|GPT⁺|GM⁻
     network: tcp
     port: 443
     reality-opts:
-      public-key: Yw0T7qr5Wk3HCqV8h6V9N5wcInMxQ0XsxUuLV62_bEM
-      short-id: "c498d5e4a069592c"
-    server: nl5.japancase.site
+      public-key: lXCVb-MY5dJqMUw6xvkuPbi0idyfF-OkSY_6GpOovVI
+      short-id: "9f05c35b73b47d53"
+    server: nl4.japancase.site
     tls: true
     type: vless
     udp: true
     uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
     xudp: true
     packet-encoding: xudp
-    servername: nl5.japancase.site
+    servername: nl4.japancase.site
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_3|0.8MB/s|GPT⁺|History
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.63
+    type: ss
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
