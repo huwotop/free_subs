@@ -1,131 +1,115 @@
 proxies:
-  - client-fingerprint: chrome
+  - client-fingerprint: firefox
+    encryption: none
     grpc-opts:
-      grpc-service-name: google.storage.v2.Storage
-    name: 虎窝小栈🇵🇱PL²_1|6.8MB/s|GPT⁺
+      grpc-service-name: connect-fr
+    name: 虎窝小栈🇺🇸US²_1|0.6MB/s|GPT⁺
     network: grpc
-    port: 2083
-    reality-opts:
-      public-key: B7x5bYp-YhtLeH31zYcilpKFCkGTMe3jtSECSw-bMC4
-      short-id: "8bd80253"
-    server: 201.58.189.105
+    port: 8443
+    server: 50.7.178.197
     tls: true
     type: vless
     udp: true
-    uuid: d7ddade6-b7a0-4cab-a910-d5d5c378d98a
+    uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
     xudp: true
     packet-encoding: xudp
-    servername: dl.google.com
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇸🇬SG²_1|5.2MB/s|GPT⁺|GM-US|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.45
-    type: ss
+    servername: fr2.gacvpn.site
+  - client-fingerprint: firefox
+    encryption: none
+    grpc-opts:
+      grpc-service-name: 204adda7e3da
+    name: 虎窝小栈🇸🇬SG²_1|0.6MB/s|GPT⁺
+    network: grpc
+    port: 443
+    reality-opts:
+      public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+      short-id: "d3bd772514c87d28"
+    server: 196.196.148.63
+    tls: true
+    type: vless
     udp: true
+    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+    xudp: true
+    packet-encoding: xudp
+    servername: 717252g.nl8.h1clayd.click
   - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_1|5.2MB/s|GPT⁺|GM-US|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.18
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_2|4.0MB/s|GPT⁺|GM-US|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.54
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_3|4.7MB/s|GPT⁺|GM-US|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.36
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_4|3.2MB/s|GPT⁺|GM-SA|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.63
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_5|2.2MB/s|GPT⁺|GM-US|Succeed
+    name: 虎窝小栈🇮🇹IT²_1|4.9MB/s|GPT⁺|GM-US|Succeed
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.27
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_6|6.3MB/s|GPT⁺|GM-US|Succeed
+    name: 虎窝小栈🇮🇹IT²_2|3.3MB/s|GPT⁺|GM-US|History
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.90
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_3|4.4MB/s|GPT⁺|GM-SA|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.63
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_4|2.6MB/s|GPT⁺|GM-US|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.45
+    type: ss
+    udp: true
+  - client-fingerprint: firefox
+    encryption: none
+    grpc-opts:
+      grpc-service-name: connect-pl
+    name: 虎窝小栈🇵🇱PL²_1|4.0MB/s|GPT⁺
+    network: grpc
+    port: 8443
+    server: 138.124.242.46
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
+    xudp: true
+    packet-encoding: xudp
+    servername: pl2-edge.gacvpn.site
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇸🇬SG²_2|2.3MB/s|GPT⁺|GM-US|Succeed
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.81
     type: ss
     udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_7|1.3MB/s|GPT⁺|GM-US|Succeed
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.72
-    type: ss
-    udp: true
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🇪🇸ES²_1|2.1MB/s|GPT⁺|GM⁻
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-      short-id: "42426c882c5fcd41"
-    server: 7aa271t.es1.h1clayd.click
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    xudp: true
-    packet-encoding: xudp
-    servername: 7aa271t.es1.h1clayd.click
   - alpn:
       - http/1.1
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     encryption: none
-    name: 虎窝小栈🇬🇧GB²_1|3.5MB/s
+    name: 虎窝小栈🇨🇿CZ²_1|3.3MB/s|GPT⁺|GM⁻-NL
     network: ws
     port: 443
-    server: 95.163.232.240
+    server: n1.topingr.ir
     tls: true
     type: vless
     udp: true
-    uuid: 010be6fa-ab5f-404a-9edf-ab2db1f09f0c
+    uuid: 961913fb-dc88-446f-8356-3fde5b51d7f7
     ws-opts:
       headers:
-        Host: files.neurixai.app
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: /api/generate
+        Host: cdn2.zovip2.ir
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /api/v3/pulse
     xudp: true
     packet-encoding: xudp
-    servername: files.neurixai.app
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 虎窝小栈🏴‍☠_1@DeltaKroneckerGithub-13|5.1MB/s|GPT⁺
-    network: raw
-    port: 443
-    reality-opts:
-      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-      short-id: "051f20c2344a2dfd"
-    server: 104.36.69.105
-    tls: true
-    type: vless
+    servername: cdn2.zovip2.ir
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_5|2.7MB/s|GPT⁺|GM-US|Succeed
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.18
+    type: ss
     udp: true
-    uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
-    xudp: true
-    packet-encoding: xudp
-    servername: portal.citygrainla.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
