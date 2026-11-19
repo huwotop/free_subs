@@ -1,7 +1,42 @@
 proxies:
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_1|3.9MB/s|GPT⁺|LastResult
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.27
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_2|0.9MB/s|GPT⁺|LastResult
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.54
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_3|2.0MB/s|GPT⁺|LastResult
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.99
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_4|1.0MB/s|GPT⁺|LastResult
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.90
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇮🇹IT²_5|0.7MB/s|GPT⁺|LastResult
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.36
+    type: ss
+    udp: true
   - client-fingerprint: firefox
     encryption: none
-    name: 虎窝小栈🇵🇱PL²_1|4.4MB/s|GPT⁺|LastResult
+    name: 虎窝小栈🇵🇱PL²_1|3.1MB/s|GPT⁺|LastResult
     network: tcp
     port: 443
     reality-opts:
@@ -16,100 +51,22 @@ proxies:
     packet-encoding: xudp
     servername: pl8.galioncc.com
   - cipher: aes-256-gcm
-    name: 虎窝小栈🇸🇬SG²_1|3.1MB/s|GPT⁺|LastResult
+    name: 虎窝小栈🇮🇹IT²_6|2.4MB/s|GPT⁺|LastResult
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.99
+    server: 202.50.253.72
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: 虎窝小栈🇫🇷FR²_1|6.4MB/s|GPT⁺
-    password: itzvpn@321
-    port: 8388
-    server: 57.131.27.21
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇸🇬SG²_2|0.8MB/s|GPT⁺|LastResult
+    name: 虎窝小栈🇮🇹IT²_7|0.5MB/s|GPT⁺|GM-US|LastResult
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.27
+    server: 202.50.253.45
     type: ss
     udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_1|2.4MB/s|GPT⁺|LastResult
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.90
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_2|3.6MB/s|GPT⁺|LastResult
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.63
-    type: ss
-    udp: true
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    name: 虎窝小栈🇩🇪DE²_1|3.3MB/s|GPT⁺|GM⁻|LastResult
-    network: ws
-    port: 443
-    server: free-config-bot-development-33s35.lucity.app
-    tls: true
-    type: vless
-    udp: true
-    uuid: 474c5a2e-96eb-fa3f-6639-cbd2129c8027
-    ws-opts:
-      headers:
-        Host: free-config-bot-development-33s35.lucity.app
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: /ws/474c5a2e-96eb-fa3f-6639-cbd2129c8027
-    xudp: true
-    packet-encoding: xudp
-    servername: free-config-bot-development-33s35.lucity.app
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_3|3.4MB/s|GPT⁺|LastResult
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.54
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_4|2.3MB/s|GPT⁺
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.36
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_5|2.7MB/s|GPT⁺|LastResult
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.81
-    type: ss
-    udp: true
-  - client-fingerprint: firefox
-    encryption: none
-    name: 虎窝小栈🇺🇸US²_1|1.6MB/s|GPT⁺|GM|LastResult
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-      short-id: 868419504747f6de
-    server: 84.32.54.237
-    tls: true
-    type: vless
-    udp: true
-    uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-    xudp: true
-    packet-encoding: xudp
-    servername: rly-gw-cfg.galioncc.com
   - client-fingerprint: edge
     encryption: none
-    name: 虎窝小栈🇸🇪SE²_1|0.8MB/s|GPT⁺|GM-US
+    name: 虎窝小栈🇸🇪SE²_1|3.2MB/s|GPT⁺|LastResult
     network: tcp
     port: 443
     reality-opts:
@@ -124,77 +81,34 @@ proxies:
     packet-encoding: xudp
     servername: ns-api-gw.galioncc.com
   - cipher: aes-256-gcm
-    name: 虎窝小栈🇮🇹IT²_6|0.9MB/s|GPT⁺|GM-US
+    name: 虎窝小栈🇮🇹IT²_8|0.8MB/s|GPT⁺|LastResult
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.45
+    server: 202.50.253.81
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: 虎窝小栈🇳🇱NL²_1|3.8MB/s|GPT⁺|GM⁻
-    network: ws
-    port: 8443
-    server: cloudehouse24.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: fa937345-6d3e-4ff4-8127-1a836987a0db
-    ws-opts:
-      headers:
-        Host: cloudehouse24.ru
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: /v1/assets/7c3f9a2e6b4d8f10/nl.js
-    xudp: true
-    packet-encoding: xudp
-    servername: cloudehouse24.ru
-  - cipher: aes-256-gcm
-    name: 虎窝小栈🇸🇬SG²_3|0.8MB/s|GPT⁺
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.72
-    type: ss
-    udp: true
-  - client-fingerprint: firefox
-    encryption: none
+  - client-fingerprint: edge
     grpc-opts:
-      grpc-service-name: api-mod
-    name: 虎窝小栈🇩🇪DE²_2|5.5MB/s|GPT⁺
+      grpc-service-name: 99f2107b03f8
+    name: 虎窝小栈🇺🇸US²_1|1.3MB/s|GPT⁺
     network: grpc
     port: 443
     reality-opts:
-      public-key: eyEGQfdxyhZG0bCKlwp8hSihdc5WHTGmw4umrW4_bxY
-      short-id: ""
-    server: 37.114.37.192
+      public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+      short-id: bd8f712209a9c283
+    server: 89.124.122.19
     tls: true
     type: vless
     udp: true
-    uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
     xudp: true
     packet-encoding: xudp
-    servername: api-mod.storagedirectguide.com
-  - client-fingerprint: firefox
-    encryption: none
-    name: 虎窝小栈🇩🇪DE²_3|0.6MB/s|GPT⁺
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: K41mxSIT1WcM8QEiZQxs7n_qOroaPucFMHamzWICKVQ
-      short-id: ""
-    server: 46.247.109.32
-    tls: true
-    type: vless
-    udp: true
-    uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
-    xudp: true
-    packet-encoding: xudp
-    servername: graff.cosmograff.com
-  - cipher: 2022-blake3-chacha20-poly1305
-    name: 虎窝小栈🇩🇪DE²_4|3.6MB/s|GPT⁺
-    password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
-    port: 443
-    server: 47.85.162.44
+    servername: 0592efg.us8.h1clayd.click
+  - cipher: aes-256-gcm
+    name: 虎窝小栈🇸🇬SG²_1|1.9MB/s|GPT⁺
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.18
     type: ss
     udp: true
 proxy-groups:
